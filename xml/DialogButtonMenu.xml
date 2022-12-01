@@ -251,16 +251,16 @@
 						<label>$LOCALIZE[31226]</label>
 						<label2>&#xf004;</label2>
 						<onclick>Dialog.Close(all,true)</onclick>
-						<onclick>RunScript(plugin.video.embycon,0,?mode=CHANGE_USER)</onclick>
-						<visible>System.HasAddon(plugin.video.embycon) + !String.IsEmpty(Window(Home).Property(plugin.video.embycon-userid)) + !Window.IsVisible(loginscreen)</visible>
+						<onclick>RunScript(plugin.video.jellycon,0,?mode=CHANGE_USER)</onclick>
+						<visible>System.HasAddon(plugin.video.jellycon) + !String.IsEmpty(Window(Home).Property(plugin.video.jellycon-userid)) + !Window.IsVisible(loginscreen)</visible>
 						<property name="color">accent</property>
 					</item>
 					<item>
 						<label>$LOCALIZE[31225]</label>
 						<label2>&#xf004;</label2>
 						<onclick>Dialog.Close(all,true)</onclick>
-						<onclick>RunScript(plugin.video.embycon,0,?mode=CHANGE_USER)</onclick>
-						<visible>System.HasAddon(plugin.video.embycon) + String.IsEmpty(Window(Home).Property(plugin.video.embycon-userid)) + !Window.IsVisible(loginscreen)</visible>
+						<onclick>RunScript(plugin.video.jellycon,0,?mode=CHANGE_USER)</onclick>
+						<visible>System.HasAddon(plugin.video.jellycon) + String.IsEmpty(Window(Home).Property(plugin.video.jellycon-userid)) + !Window.IsVisible(loginscreen)</visible>
 						<property name="color">accent</property>
 					</item>
 					<item>

@@ -13,13 +13,13 @@
 	<groupoverride group="mainmenu" condition="true">Dialog.Close(all,true)</groupoverride>
 
 	<!-- action overrides -->
-	<override action="embycon_movies">
-		<condition>String.IsEqual(Window(home).property(plugin.video.embycon-group_movies),true)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fIsVirtualUnaired%3dfalse%26IncludeItemTypes%3dMovie%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon_movies">
+		<condition>String.IsEqual(Window(home).property(plugin.video.jellycon-group_movies),true)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fIsVirtualUnaired%3dfalse%26IncludeItemTypes%3dMovie%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon_movies">
-		<condition>!String.IsEqual(Window(home).property(plugin.video.embycon-group_movies),true)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMovie%26IsVirtualUnaired%3dfalse%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26format%3djson,return)</action>
+	<override action="jellycon_movies">
+		<condition>!String.IsEqual(Window(home).property(plugin.video.jellycon-group_movies),true)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMovie%26IsVirtualUnaired%3dfalse%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26format%3djson,return)</action>
 	</override>
 
 	<override action="library_update">
@@ -201,276 +201,276 @@
 		<action>SetProperty(TagHubNr,29,home)</action>
 		<action>ActivateWindow(1130)</action>
 	</override>
-	<!-- embycon overrides -->
-	<override action="embycon0">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),boxsets)</condition>
+	<!-- jellycon overrides -->
+	<override action="jellycon0">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,0,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon0">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.0.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon0">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon1">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),boxsets)</condition>
+	<override action="jellycon1">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,1,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon1">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.1.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon1">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon2">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),boxsets)</condition>
+	<override action="jellycon2">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,2,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon2">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.2.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon2">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon3">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),boxsets)</condition>
+	<override action="jellycon3">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,3,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon3">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.3.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon3">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon4">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),boxsets)</condition>
+	<override action="jellycon4">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,4,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon4">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.4.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon4">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon5">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),boxsets)</condition>
+	<override action="jellycon5">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,5,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon5">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.5.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon5">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon6">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),boxsets)</condition>
+	<override action="jellycon6">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,6,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon6">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.6.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon6">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon7">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),boxsets)</condition>
+	<override action="jellycon7">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,7,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon7">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.7.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon7">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon8">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),boxsets)</condition>
+	<override action="jellycon8">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,8,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon8">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.8.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon8">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon9">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),boxsets)</condition>
+	<override action="jellycon9">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,9,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon9">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.9.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon9">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon10">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),boxsets)</condition>
+	<override action="jellycon10">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,10,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon10">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.10.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon10">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon11">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),boxsets)</condition>
+	<override action="jellycon11">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,11,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon11">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.11.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon11">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon12">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),boxsets)</condition>
+	<override action="jellycon12">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,12,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon12">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.12.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon12">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon13">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),boxsets)</condition>
+	<override action="jellycon13">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,13,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon13">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.13.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon13">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon14">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),boxsets)</condition>
+	<override action="jellycon14">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,14,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon14">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.14.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon14">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon15">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),boxsets)</condition>
+	<override action="jellycon15">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,15,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon15">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.15.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon15">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon16">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),boxsets)</condition>
+	<override action="jellycon16">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,16,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon16">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.16.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon16">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon17">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),boxsets)</condition>
+	<override action="jellycon17">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,17,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon17">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.17.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon17">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon18">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),boxsets)</condition>
+	<override action="jellycon18">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,18,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon18">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.18.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon18">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon19">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),boxsets)</condition>
+	<override action="jellycon19">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,19,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon19">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.19.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon19">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon20">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),boxsets)</condition>
+	<override action="jellycon20">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,20,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon20">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.20.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon20">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon21">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),boxsets)</condition>
+	<override action="jellycon21">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,21,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon21">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.21.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon21">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon22">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),boxsets)</condition>
+	<override action="jellycon22">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,22,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon22">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.22.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon22">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon23">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),boxsets)</condition>
+	<override action="jellycon23">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,23,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon23">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.23.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon23">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon24">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),boxsets)</condition>
+	<override action="jellycon24">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,24,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon24">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.24.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon24">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon25">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),boxsets)</condition>
+	<override action="jellycon25">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,25,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon25">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.25.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon25">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon26">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),boxsets)</condition>
+	<override action="jellycon26">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,26,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon26">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.26.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon26">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon27">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),boxsets)</condition>
+	<override action="jellycon27">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,27,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon27">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.27.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon27">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon28">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),boxsets)</condition>
+	<override action="jellycon28">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,28,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon28">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.28.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon28">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
-	<override action="embycon29">
-		<condition>!String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),boxsets)</condition>
+	<override action="jellycon29">
+		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),boxsets)</condition>
 		<action>SetProperty(TagHubNr,29,home)</action>
 		<action>ActivateWindow(1131)</action>
 	</override>
-	<override action="embycon29">
-		<condition>String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.embycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.embycon-view_item.29.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+	<override action="jellycon29">
+		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),boxsets)</condition>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 
 	<!-- sidepanel -->
@@ -490,7 +490,7 @@
 
 	<!-- moviehub -->
 	<propertydefault defaultID="embuary_moviehub_movies" group="moviehub" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_moviehub_embycon_movies" group="moviehub" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_moviehub_jellycon_movies" group="moviehub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_moviehub_collections" group="moviehub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_moviehub_unwatched" group="moviehub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_moviehub_genres" group="moviehub" property="isDefault">true</propertydefault>
@@ -499,7 +499,7 @@
 
 	<!-- tvshowhub -->
 	<propertydefault defaultID="embuary_tvshowhub_tvshows" group="tvshowhub" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_tvshowhub_embycon_tvshows" group="tvshowhub" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_tvshowhub_jellycon_tvshows" group="tvshowhub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_tvshowhub_genres" group="tvshowhub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_tvshowhub_unwatched" group="tvshowhub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_tvshowhub_library" group="tvshowhub" property="isDefault">true</propertydefault>
@@ -514,8 +514,8 @@
 	<propertydefault defaultID="embuary_musichub_library" group="musichub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_musichub_musicvideos" group="musichub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_musichub_partymode" group="musichub" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_musichub_embycon_artists" group="musichub" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_musichub_embycon_albums" group="musichub" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_musichub_jellycon_artists" group="musichub" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_musichub_jellycon_albums" group="musichub" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_musichub_search" group="musichub" property="isDefault">true</propertydefault>
 
 	<!-- home -->
@@ -562,37 +562,37 @@
 	<propertydefault defaultID="embuary_tag27" group="mainmenu" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_tag28" group="mainmenu" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_tag29" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon0" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon0" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon1" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon2" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon3" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon4" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon5" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon6" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon7" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon8" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon9" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon10" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon11" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon12" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon13" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon14" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon15" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon16" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon17" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon18" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon19" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon20" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon21" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon22" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon23" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon24" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon25" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon26" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon27" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon28" group="mainmenu" property="isDefault">true</propertydefault>
-	<propertydefault defaultID="embuary_embycon29" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon0" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon0" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon1" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon2" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon3" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon4" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon5" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon6" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon7" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon8" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon9" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon10" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon11" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon12" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon13" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon14" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon15" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon16" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon17" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon18" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon19" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon20" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon21" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon22" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon23" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon24" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon25" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon26" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon27" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon28" group="mainmenu" property="isDefault">true</propertydefault>
+	<propertydefault defaultID="embuary_jellycon29" group="mainmenu" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_pvr" group="mainmenu" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_recordings" group="mainmenu" property="isDefault">true</propertydefault>
 	<propertydefault defaultID="embuary_addons" group="mainmenu" property="isDefault">true</propertydefault>
@@ -671,67 +671,67 @@
 	<propertydefault defaultID="embuary_recordings" group="mainmenu" property="list">pvr://recordings/tv/active/</propertydefault>
 	<propertydefault defaultID="embuary_addons" group="mainmenu" property="list">addons://user/all</propertydefault>
 	<propertydefault defaultID="embuary_android" group="mainmenu" property="list">androidapp://sources/apps/</propertydefault>
-	<propertydefault defaultID="embuary_embycon0" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon1" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon2" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon3" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon4" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon5" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon6" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon7" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon8" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon9" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon10" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon11" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon12" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon13" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon14" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon15" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon16" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon17" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon18" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon19" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon20" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon21" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon22" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon23" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon24" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon25" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon26" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon27" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon28" group="mainmenu" property="list">-</propertydefault>
-	<propertydefault defaultID="embuary_embycon29" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon0" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon1" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon2" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon3" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon4" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon5" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon6" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon7" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon8" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon9" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon10" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon11" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon12" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon13" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon14" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon15" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon16" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon17" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon18" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon19" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon20" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon21" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon22" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon23" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon24" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon25" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon26" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon27" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon28" group="mainmenu" property="list">-</propertydefault>
+	<propertydefault defaultID="embuary_jellycon29" group="mainmenu" property="list">-</propertydefault>
 
-	<propertydefault defaultID="embuary_embycon0" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon1" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon2" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon3" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon4" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon5" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon6" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon7" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon8" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon9" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon10" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon11" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon12" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon13" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon14" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon15" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon16" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon17" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon18" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon19" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon20" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon21" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon22" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon23" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon24" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon25" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon26" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon27" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon28" group="mainmenu" property="useFakeArt">false</propertydefault>
-	<propertydefault defaultID="embuary_embycon29" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon0" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon1" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon2" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon3" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon4" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon5" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon6" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon7" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon8" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon9" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon10" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon11" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon12" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon13" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon14" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon15" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon16" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon17" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon18" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon19" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon20" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon21" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon22" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon23" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon24" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon25" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon26" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon27" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon28" group="mainmenu" property="useFakeArt">false</propertydefault>
+	<propertydefault defaultID="embuary_jellycon29" group="mainmenu" property="useFakeArt">false</propertydefault>
 	<propertydefault defaultID="embuary_pvr" group="mainmenu" property="useFakeArt">false</propertydefault>
 	<propertydefault defaultID="embuary_recordings" group="mainmenu" property="useFakeArt">false</propertydefault>
 	<propertydefault defaultID="embuary_games" group="mainmenu" property="useFakeArt">false</propertydefault>

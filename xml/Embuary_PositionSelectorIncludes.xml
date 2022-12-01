@@ -462,7 +462,7 @@
 			<param name="type" value="home"/>
 			<param name="label" value="$LOCALIZE[31080]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_InProgressMedia"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="home"/>
@@ -493,7 +493,7 @@
 			<param name="type" value="home"/>
 			<param name="label" value="$LOCALIZE[31301]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NewMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="home"/>
@@ -504,7 +504,7 @@
 			<param name="type" value="home"/>
 			<param name="label" value="$LOCALIZE[31302]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NewEpisodes"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="home"/>
@@ -569,7 +569,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[31080]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_InProgressMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -580,7 +580,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[31301]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NewMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -591,7 +591,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[135]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_MovieGenres"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -602,7 +602,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[31183]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_RecommendedMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -613,7 +613,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[31018]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_SimilarMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -636,7 +636,7 @@
 			<param name="type" value="moviehub"/>
 			<param name="label" value="$LOCALIZE[31062]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_FavMovies"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="moviehub"/>
@@ -676,7 +676,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[31080]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_InProgressShows"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -687,7 +687,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[31012]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NextUp"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -698,7 +698,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[31302]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NewEpisodes"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -709,7 +709,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[135]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_TVShowGenres"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -725,7 +725,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[31182]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_RecommendedShows"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -748,7 +748,7 @@
 			<param name="type" value="tvshowhub"/>
 			<param name="label" value="$LOCALIZE[31064]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_FavShows"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="tvshowhub"/>
@@ -778,7 +778,7 @@
 			<param name="type" value="musichub"/>
 			<param name="label" value="$LOCALIZE[31303]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_NewAlbums"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="musichub"/>
@@ -794,25 +794,25 @@
 			<param name="type" value="musichub"/>
 			<param name="label" value="$LOCALIZE[31215]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_OftenPlayedSongs"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="musichub"/>
 			<param name="label" value="$LOCALIZE[31212]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_FavArtists"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="musichub"/>
 			<param name="label" value="$LOCALIZE[31213]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_FavAlbums"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="musichub"/>
 			<param name="label" value="$LOCALIZE[31214]   ($LOCALIZE[31208])"/>
 			<param name="item" value="W_EmbyCon_FavSongs"/>
-			<param name="visible" value="System.HasAddon(plugin.video.embycon)"/>
+			<param name="visible" value="System.HasAddon(plugin.video.jellycon)"/>
 		</include>
 		<include content="SetWidget">
 			<param name="type" value="musichub"/>
@@ -1007,34 +1007,34 @@
 	<!-- Available EmbyCon movie widgets -->
 	<include name="EmbyConMovieHubAvailableWidgets">
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[192]"/>
 			<param name="setitem" value="false"/>
 			<param name="clearitem" value="true"/>
 			<param name="icon" value="DefaultAddonNone"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[31080]"/>
 			<param name="item" value="W_EmbyConHub_InProgressMovies"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[31301]"/>
 			<param name="item" value="W_EmbyConHub_NewMovies"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[31183]"/>
 			<param name="item" value="W_EmbyConHub_RecommendedMovies"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[31184]"/>
 			<param name="item" value="W_EmbyConHub_RandomMovies"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmoviehub"/>
+			<param name="type" value="jellyconmoviehub"/>
 			<param name="label" value="$LOCALIZE[135]"/>
 			<param name="item" value="W_EmbyConHub_MovieGenres"/>
 		</include>
@@ -1043,39 +1043,39 @@
 	<!-- Available EmbyCon tvshow widgets -->
 	<include name="EmbyConTVShowHubAvailableWidgets">
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[192]"/>
 			<param name="setitem" value="false"/>
 			<param name="clearitem" value="true"/>
 			<param name="icon" value="DefaultAddonNone"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[31080]"/>
 			<param name="item" value="W_EmbyConHub_InProgressShows"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[31012]"/>
 			<param name="item" value="W_EmbyConHub_NextUp"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[31302]"/>
 			<param name="item" value="W_EmbyConHub_NewEpisodes"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[31182]"/>
 			<param name="item" value="W_EmbyConHub_RecommendedShows"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[31185]"/>
 			<param name="item" value="W_EmbyConHub_RandomShows"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embycontvshowhub"/>
+			<param name="type" value="jellycontvshowhub"/>
 			<param name="label" value="$LOCALIZE[135]"/>
 			<param name="item" value="W_EmbyConHub_TVShowGenres"/>
 		</include>
@@ -1084,39 +1084,39 @@
 	<!-- Available EmbyCon music widgets -->
 	<include name="EmbyConMusicHubAvailableWidgets">
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[192]"/>
 			<param name="setitem" value="false"/>
 			<param name="clearitem" value="true"/>
 			<param name="icon" value="DefaultAddonNone"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31303]"/>
 			<param name="item" value="W_EmbyConHub_NewAlbums"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31211]"/>
 			<param name="item" value="W_EmbyConHub_PlayedSongs"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31215]"/>
 			<param name="item" value="W_EmbyConHub_OftenPlayed"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31212]"/>
 			<param name="item" value="W_EmbyConHub_FavArtists"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31213]"/>
 			<param name="item" value="W_EmbyConHub_FavAlbums"/>
 		</include>
 		<include content="SetWidget">
-			<param name="type" value="embyconmusichub"/>
+			<param name="type" value="jellyconmusichub"/>
 			<param name="label" value="$LOCALIZE[31214]"/>
 			<param name="item" value="W_EmbyConHub_FavSongs"/>
 		</include>

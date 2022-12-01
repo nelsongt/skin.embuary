@@ -148,13 +148,13 @@
 							<param name="type" value="tagmixedhub"/>
 						</include>
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMovieHubWidgets)" content="PositionSelectorItems">
-							<param name="type" value="embyconmoviehub"/>
+							<param name="type" value="jellyconmoviehub"/>
 						</include>
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConTVShowHubWidgets)" content="PositionSelectorItems">
-							<param name="type" value="embycontvshowhub"/>
+							<param name="type" value="jellycontvshowhub"/>
 						</include>
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMusicHubWidgets)" content="PositionSelectorItems">
-							<param name="type" value="embyconmusichub"/>
+							<param name="type" value="jellyconmusichub"/>
 						</include>
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),CustomHubWidgets)" content="PositionSelectorItems">
 							<param name="type" value="customhub"/>

@@ -243,10 +243,10 @@
 					<visible>ControlGroup(1000).HasFocus(95) + System.HasAddon(plugin.video.emby)</visible>
 				</control>
 				<control type="button">
-					<label>EmbyCon $INFO[System.AddonVersion(plugin.video.embycon)]</label>
+					<label>EmbyCon $INFO[System.AddonVersion(plugin.video.jellycon)]</label>
 					<font>Reg22_monofied</font>
 					<include>SettingsButton</include>
-					<visible>ControlGroup(1000).HasFocus(95) + System.HasAddon(plugin.video.embycon)</visible>
+					<visible>ControlGroup(1000).HasFocus(95) + System.HasAddon(plugin.video.jellycon)</visible>
 				</control>
 				<!-- CPU and memory bar -->
 				<include content="SkinSettingsHeadlineLabel">

@@ -46,13 +46,13 @@
 		<visible>Library.HasContent(tvshows) + System.HasAddon(script.embuary.info)</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_tvshowhub_embycon_tvshows</defaultID>
+		<defaultID>embuary_tvshowhub_jellycon_tvshows</defaultID>
 		<label>$LOCALIZE[31239]</label>
 		<label2/>
 		<icon/>
 		<thumb/>
-		<action>ActivateWindow(10025,plugin://plugin.video.embycon/?media_type=tvshows&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fFields%3d%7bfield_filters%7d%26Recursive%3dtrue%26IncludeItemTypes%3dSeries%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
-		<visible>System.HasAddon(plugin.video.embycon)</visible>
+		<action>ActivateWindow(10025,plugin://plugin.video.jellycon/?media_type=tvshows&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fFields%3d%7bfield_filters%7d%26Recursive%3dtrue%26IncludeItemTypes%3dSeries%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<visible>System.HasAddon(plugin.video.jellycon)</visible>
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_tvshowhub_library</defaultID>

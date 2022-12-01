@@ -46,13 +46,13 @@
 		<visible>Library.HasContent(movies)</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_moviehub_embycon_movies</defaultID>
+		<defaultID>embuary_moviehub_jellycon_movies</defaultID>
 		<label>$LOCALIZE[31160]</label>
 		<label2/>
 		<icon/>
 		<thumb/>
-		<action>embycon_movies</action>
-		<visible>System.HasAddon(plugin.video.embycon)</visible>
+		<action>jellycon_movies</action>
+		<visible>System.HasAddon(plugin.video.jellycon)</visible>
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_moviehub_library</defaultID>

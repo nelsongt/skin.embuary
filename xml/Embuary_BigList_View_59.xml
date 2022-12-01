@@ -37,7 +37,7 @@
 					<control type="group">
 						<visible>
 							!String.IsEmpty(Container.ShowTitle)
-							| [String.Contains(Container.Folderpath,plugin.video.embycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]
+							| [String.Contains(Container.Folderpath,plugin.video.jellycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]
 						</visible>
 						<visible>
 							[!Container.HasParent + [!String.IsEmpty(ListItemAbsolute(0).Art(tvshow.poster)) | !String.IsEmpty(ListItemAbsolute(0).Art(season.poster))]]
@@ -56,7 +56,7 @@
 					</control>
 					<!-- buttons -->
 					<control type="group">
-						<animation effect="slide" end="110,0" time="0" condition="[!String.IsEmpty(Container.ShowTitle) | [String.Contains(Container.Folderpath,plugin.video.embycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]] + [[!Container.HasParent + !String.IsEmpty(ListItemAbsolute(0).Art(tvshow.poster))] | [Container.HasParent + !String.IsEmpty(ListItemAbsolute(1).Art(tvshow.poster))]]">Conditional</animation>
+						<animation effect="slide" end="110,0" time="0" condition="[!String.IsEmpty(Container.ShowTitle) | [String.Contains(Container.Folderpath,plugin.video.jellycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]] + [[!Container.HasParent + !String.IsEmpty(ListItemAbsolute(0).Art(tvshow.poster))] | [Container.HasParent + !String.IsEmpty(ListItemAbsolute(1).Art(tvshow.poster))]]">Conditional</animation>
 						<control type="label">
 							<top>-4</top>
 							<height>50</height>
@@ -93,13 +93,13 @@
 								<onup>6666</onup>
 								<ondown>$PARAM[id]</ondown>
 								<onclick>SetFocus(50)</onclick>
-								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + !Container.HasParent">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[Container.ListItemAbsolute(0).DBID])</onclick>
-								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + Container.HasParent">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[Container.ListItemAbsolute(1).DBID])</onclick>
-								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + !Container.HasParent">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.embycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[Container.ListItemAbsolute(0).Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
-								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + Container.HasParent">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.embycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[Container.ListItemAbsolute(1).Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
+								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + !Container.HasParent">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[Container.ListItemAbsolute(0).DBID])</onclick>
+								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + Container.HasParent">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[Container.ListItemAbsolute(1).DBID])</onclick>
+								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + !Container.HasParent">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.jellycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[Container.ListItemAbsolute(0).Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
+								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + Container.HasParent">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.jellycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[Container.ListItemAbsolute(1).Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
 								<visible>
 									[String.StartsWith(Container.Folderpath,videodb://) + String.Contains(Container.Foldername,$LOCALIZE[20373]) | String.Contains(Container.Foldername,$LOCALIZE[31258])]
-									| [String.Contains(Container.Folderpath,plugin.video.embycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]
+									| [String.Contains(Container.Folderpath,plugin.video.jellycon) + [String.Contains(Container.Folderpath,media_type=season) | String.Contains(Container.Folderpath,media_type=series)]]
 								</visible>
 							</control>
 						</control>

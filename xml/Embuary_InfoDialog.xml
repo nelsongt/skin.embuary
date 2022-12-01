@@ -110,7 +110,7 @@
 								<property name="icon">&#xf1d8;</property>
 								<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 								<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 							</item>
 						</content>
 					</control>
@@ -334,7 +334,7 @@
 								<property name="icon">&#xf1d8;</property>
 								<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 								<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 							</item>
 						</content>
 					</control>
@@ -440,7 +440,7 @@
 							<ondown>200</ondown>
 							<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 							<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-							<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+							<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 						</control>
 					</control>
 					<!-- genre -->
@@ -466,7 +466,7 @@
 			</control>
 			<!-- Next Up -->
 			<include content="WideWidget">
-				<param name="visible" value="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)"/>
+				<param name="visible" value="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)"/>
 				<param name="id" value="200"/>
 				<param name="onup" value="100"/>
 				<param name="ondown" value="201"/>
@@ -481,7 +481,7 @@
 				<param name="content" value="$VAR[InfoDialog_NextUp_Content]"/>
 			</include>
 			<include content="WideWidget">
-				<param name="visible" value="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)"/>
+				<param name="visible" value="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)"/>
 				<param name="id" value="201"/>
 				<param name="onup" value="200"/>
 				<param name="ondown" value="202"/>
@@ -503,7 +503,7 @@
 				<param name="sublabel" value=""/>
 				<param name="height" value="551"/>
 				<param name="sortby" value="season"/>
-				<param name="use_custom_onclick" value="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)"/>
+				<param name="use_custom_onclick" value="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)"/>
 				<param name="onclick" value="RunScript(script.embuary.helper,action=goto,path='$ESCINFO[ListItem.Filenameandpath]',target=videos)"/>
 				<param name="content" value="$VAR[InfoDialog_Season_Content]"/>
 			</include>
@@ -523,7 +523,7 @@
 				<param name="headline" value="$LOCALIZE[31002]"/>
 				<param name="limit" value="15"/>
 				<param name="sortby" value="random"/>
-				<param name="use_custom_onclick" value="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)"/>
+				<param name="use_custom_onclick" value="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)"/>
 				<param name="onclick" value="RunScript(script.embuary.helper,action=goto,path='$ESCINFO[ListItem.Filenameandpath]',target=videos)"/>
 				<param name="content" value="$VAR[InfoDialog_MoreLikeThis_Content]"/>
 			</include>
@@ -622,9 +622,9 @@
 								<visible>!String.IsEmpty(ListItem.DBID) | !String.IsEmpty(ListItem.Property(series_id))</visible>
 								<label>$LOCALIZE[1024]</label>
 								<property name="icon">&#xf24b;</property>
-								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">close</onclick>
-								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + !String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[ListItem.DBID])</onclick>
-								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.embycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[ListItem.Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
+								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">close</onclick>
+								<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + !String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[ListItem.DBID])</onclick>
+								<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.jellycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[ListItem.Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
 							</item>
 							<item>
 								<visible>!String.IsEmpty(ListItem.Plot)</visible>
@@ -644,7 +644,7 @@
 								<property name="icon">&#xf1d8;</property>
 								<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 								<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+								<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 							</item>
 						</content>
 					</control>
@@ -730,9 +730,9 @@
 							<include>LightGreyButton</include>
 							<label>$LOCALIZE[31011]</label>
 							<ondown>200</ondown>
-							<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">close</onclick>
-							<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon) + !String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[ListItem.DBID])</onclick>
-							<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.embycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[ListItem.Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
+							<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">close</onclick>
+							<onclick condition="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon) + !String.IsEqual(Container.Foldername,ListItem.TVShowTitle)">RunScript(script.embuary.helper,action=jumptoshow_by_episode,dbid=$INFO[ListItem.DBID])</onclick>
+							<onclick condition="String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)">RunScript(script.embuary.helper,action=goto,path='"plugin://plugin.video.jellycon/?media_type=Series&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fShows%2f$INFO[ListItem.Property(series_id)]%2fSeasons%3fuserId%3d%7buserid%7d%26Fields%3d%7bfield_filters%7d%26format%3djson"',target=videos)</onclick>
 							<visible>!String.IsEmpty(ListItem.DBID) | !String.IsEmpty(ListItem.Property(series_id))</visible>
 						</control>
 						<control type="button" id="11">
@@ -757,7 +757,7 @@
 							<ondown>200</ondown>
 							<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 							<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-							<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+							<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 						</control>
 					</control>
 					<control type="textbox">
@@ -795,7 +795,7 @@
 			</include>
 			<!-- Seasons -->
 			<include content="PosterWidget">
-				<param name="visible" value="!String.StartsWith(ListItem.Path,plugin://plugin.video.embycon)"/>
+				<param name="visible" value="!String.StartsWith(ListItem.Path,plugin://plugin.video.jellycon)"/>
 				<param name="id" value="201"/>
 				<param name="onup" value="200"/>
 				<param name="ondown" value="202"/>
@@ -1063,7 +1063,7 @@
 									<property name="icon">&#xf1d8;</property>
 									<onclick condition="!$EXP[HasEmbyContext] + $EXP[HasLibraryEditButton]">SetFocus(4000)</onclick>
 									<onclick condition="$EXP[HasEmbyContext]">RunScript(special://home/addons/plugin.video.emby/context.py)</onclick>
-									<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.embycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
+									<onclick condition="$EXP[HasEmbyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 								</item>
 							</content>
 						</control>

@@ -346,7 +346,7 @@
 					<shadowcolor>FF000000</shadowcolor>
 					<font>font_flag</font>
 					<align>left</align>
-					<label>label $INFO[ListItem.label,[COLOR FF5BE5EE]','[/COLOR]] dbtype $INFO[ListItem.dbtype,[COLOR FF5BE5EE]','[/COLOR]] dbid $INFO[ListItem.dbid,[COLOR FF5BE5EE]','[/COLOR]] imdb $INFO[ListItem.IMDBnumber,[COLOR FF5BE5EE]','[/COLOR]] embycon id $INFO[ListItem.property(id),[COLOR FF5BE5EE]','[/COLOR]]</label>
+					<label>label $INFO[ListItem.label,[COLOR FF5BE5EE]','[/COLOR]] dbtype $INFO[ListItem.dbtype,[COLOR FF5BE5EE]','[/COLOR]] dbid $INFO[ListItem.dbid,[COLOR FF5BE5EE]','[/COLOR]] imdb $INFO[ListItem.IMDBnumber,[COLOR FF5BE5EE]','[/COLOR]] jellycon id $INFO[ListItem.property(id),[COLOR FF5BE5EE]','[/COLOR]]</label>
 				</control>
 				<control type="label">
 					<height>20</height>

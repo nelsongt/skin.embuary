@@ -135,7 +135,7 @@
 						</control>
 						<control type="list" id="901">
 							<top>50</top>
-							<include condition="System.HasAddon(plugin.video.embycon)" content="ParamHeight">
+							<include condition="System.HasAddon(plugin.video.jellycon)" content="ParamHeight">
 								<param name="height" value="650"/>
 							</include>
 							<height>700</height>
@@ -183,14 +183,14 @@
 						<animation effect="slide" end="0,-50" condition="Integer.IsLess(Container(901).NumItems,11)">Conditional</animation>
 						<animation effect="slide" end="0,-50" condition="Integer.IsLess(Container(901).NumItems,12)">Conditional</animation>
 						<animation effect="slide" end="0,-50" condition="Integer.IsLess(Container(901).NumItems,13)">Conditional</animation>
-						<animation effect="slide" end="0,-50" condition="Integer.IsLess(Container(901).NumItems,14) | System.HasAddon(plugin.video.embycon)">Conditional</animation>
+						<animation effect="slide" end="0,-50" condition="Integer.IsLess(Container(901).NumItems,14) | System.HasAddon(plugin.video.jellycon)">Conditional</animation>
 						<top>810</top>
 						<include content="SideBarHeadline">
 							<param name="label">$LOCALIZE[31001]</param>
 						</include>
 						<control type="list" id="902">
 							<top>50</top>
-							<include condition="System.HasAddon(plugin.video.embycon)" content="ParamHeight">
+							<include condition="System.HasAddon(plugin.video.jellycon)" content="ParamHeight">
 								<param name="height" value="250"/>
 							</include>
 							<height>200</height>
@@ -241,9 +241,9 @@
 								<item>
 									<label>$LOCALIZE[31226]</label>
 									<icon>&#xf342;</icon>
-									<onclick>RunScript(plugin.video.embycon,0,?mode=CHANGE_USER)</onclick>
+									<onclick>RunScript(plugin.video.jellycon,0,?mode=CHANGE_USER)</onclick>
 									<property name="forced_icon">true</property>
-									<visible>System.HasAddon(plugin.video.embycon)</visible>
+									<visible>System.HasAddon(plugin.video.jellycon)</visible>
 								</item>
 								<item>
 									<label>$LOCALIZE[33060]</label>

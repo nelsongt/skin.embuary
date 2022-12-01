@@ -7,7 +7,7 @@
 		<icon>DefaultVideo.png</icon>
 		<thumb/>
 		<action>ActivateWindow(Videos,sources://video/,return)</action>
-		<visible>!Library.HasContent(movies) + !Library.HasContent(tvshows) + !System.HasAddon(plugin.video.embycon)</visible>
+		<visible>!Library.HasContent(movies) + !Library.HasContent(tvshows) + !System.HasAddon(plugin.video.jellycon)</visible>
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_all_movies</defaultID>
@@ -17,37 +17,37 @@
 		<icon>$VAR[MainMenuMovieHubIcon]</icon>
 		<action>ActivateWindow(1120,return)</action>
 		<visible>[Library.HasContent(movies)
-		| [System.HasAddon(plugin.video.embycon) + [
-		String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),movies)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),movies)
+		| [System.HasAddon(plugin.video.jellycon) + [
+		String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),movies)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),movies)
 		]]]</visible>
 	</shortcut>
 	<shortcut>
@@ -67,37 +67,37 @@
 		<thumb/>
 		<action>ActivateWindow(1121,return)</action>
 		<visible>[Library.HasContent(tvshows)
-		| [System.HasAddon(plugin.video.embycon) + [
-		String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),tvshows)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),tvshows)
+		| [System.HasAddon(plugin.video.jellycon) + [
+		String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),tvshows)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),tvshows)
 		]]]</visible>
 	</shortcut>
 
@@ -372,274 +372,274 @@
 	</shortcut>
 
 	<shortcut>
-		<defaultID>embuary_embycon0</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.0.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon0</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.0.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.thumb)]</icon>
 		<thumb/>
-		<action>embycon0</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),boxsets)]]</visible>
+		<action>jellycon0</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon1</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.1.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon1</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.1.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.thumb)]</icon>
 		<thumb/>
-		<action>embycon1</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),boxsets)]]</visible>
+		<action>jellycon1</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon2</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.2.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon2</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.2.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.thumb)]</icon>
 		<thumb/>
-		<action>embycon2</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),boxsets)]]</visible>
+		<action>jellycon2</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon3</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.3.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon3</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.3.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.thumb)]</icon>
 		<thumb/>
-		<action>embycon3</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),boxsets)]]</visible>
+		<action>jellycon3</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon4</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.4.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon4</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.4.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.thumb)]</icon>
 		<thumb/>
-		<action>embycon4</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),boxsets)]]</visible>
+		<action>jellycon4</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon5</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.5.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon5</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.5.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.thumb)]</icon>
 		<thumb/>
-		<action>embycon5</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),boxsets)]]</visible>
+		<action>jellycon5</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon6</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.6.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon6</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.6.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.thumb)]</icon>
 		<thumb/>
-		<action>embycon6</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),boxsets)]]</visible>
+		<action>jellycon6</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon7</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.7.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon7</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.7.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.thumb)]</icon>
 		<thumb/>
-		<action>embycon7</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),boxsets)]]</visible>
+		<action>jellycon7</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon8</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.8.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon8</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.8.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.thumb)]</icon>
 		<thumb/>
-		<action>embycon8</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),boxsets)]]</visible>
+		<action>jellycon8</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon9</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.9.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon9</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.9.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.thumb)]</icon>
 		<thumb/>
-		<action>embycon9</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),boxsets)]]</visible>
+		<action>jellycon9</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon10</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.10.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon10</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.10.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.thumb)]</icon>
 		<thumb/>
-		<action>embycon10</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),boxsets)]]</visible>
+		<action>jellycon10</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon11</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.11.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon11</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.11.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.thumb)]</icon>
 		<thumb/>
-		<action>embycon11</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),boxsets)]]</visible>
+		<action>jellycon11</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon12</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.12.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon12</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.12.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.thumb)]</icon>
 		<thumb/>
-		<action>embycon12</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),boxsets)]]</visible>
+		<action>jellycon12</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon13</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.13.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon13</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.13.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.thumb)]</icon>
 		<thumb/>
-		<action>embycon13</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),boxsets)]]</visible>
+		<action>jellycon13</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon14</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.14.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon14</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.14.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.thumb)]</icon>
 		<thumb/>
-		<action>embycon14</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),boxsets)]]</visible>
+		<action>jellycon14</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon15</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.15.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon15</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.15.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.thumb)]</icon>
 		<thumb/>
-		<action>embycon15</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),boxsets)]]</visible>
+		<action>jellycon15</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon16</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.16.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon16</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.16.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.thumb)]</icon>
 		<thumb/>
-		<action>embycon16</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),boxsets)]]</visible>
+		<action>jellycon16</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon17</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.17.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon17</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.17.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.thumb)]</icon>
 		<thumb/>
-		<action>embycon17</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),boxsets)]]</visible>
+		<action>jellycon17</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon18</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.18.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon18</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.18.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.thumb)]</icon>
 		<thumb/>
-		<action>embycon18</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),boxsets)]]</visible>
+		<action>jellycon18</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon19</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.19.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon19</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.19.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.thumb)]</icon>
 		<thumb/>
-		<action>embycon19</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),boxsets)]]</visible>
+		<action>jellycon19</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon20</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.20.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon20</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.20.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.thumb)]</icon>
 		<thumb/>
-		<action>embycon20</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),boxsets)]]</visible>
+		<action>jellycon20</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon21</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.21.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon21</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.21.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.thumb)]</icon>
 		<thumb/>
-		<action>embycon21</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),boxsets)]]</visible>
+		<action>jellycon21</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon22</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.22.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon22</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.22.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.thumb)]</icon>
 		<thumb/>
-		<action>embycon22</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),boxsets)]]</visible>
+		<action>jellycon22</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon23</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.23.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon23</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.23.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.thumb)]</icon>
 		<thumb/>
-		<action>embycon23</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),boxsets)]]</visible>
+		<action>jellycon23</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon24</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.24.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon24</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.24.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.thumb)]</icon>
 		<thumb/>
-		<action>embycon24</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),boxsets)]]</visible>
+		<action>jellycon24</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon25</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.25.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon25</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.25.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.thumb)]</icon>
 		<thumb/>
-		<action>embycon25</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),boxsets)]]</visible>
+		<action>jellycon25</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon26</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.26.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon26</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.26.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.thumb)]</icon>
 		<thumb/>
-		<action>embycon26</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),boxsets)]]</visible>
+		<action>jellycon26</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon27</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.27.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon27</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.27.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.thumb)]</icon>
 		<thumb/>
-		<action>embycon27</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),boxsets)]]</visible>
+		<action>jellycon27</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon28</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.28.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon28</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.28.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.thumb)]</icon>
 		<thumb/>
-		<action>embycon28</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),boxsets)]]</visible>
+		<action>jellycon28</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),boxsets)]]</visible>
 	</shortcut>
 	<shortcut>
-		<defaultID>embuary_embycon29</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.embycon-view_item.29.name)] $VAR[EmbyConLabel]</label>
+		<defaultID>embuary_jellycon29</defaultID>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.name)] $VAR[EmbyConLabel]</label>
 		<label2/>
-		<icon>$INFO[Window(home).Property(plugin.video.embycon-view_item.29.thumb)]</icon>
+		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.thumb)]</icon>
 		<thumb/>
-		<action>embycon29</action>
-		<visible>[System.HasAddon(plugin.video.embycon) + [String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),movies) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),music) | String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),boxsets)]]</visible>
+		<action>jellycon29</action>
+		<visible>[System.HasAddon(plugin.video.jellycon) + [String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),movies) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),tvshows) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),music) | String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),boxsets)]]</visible>
 	</shortcut>
 	<!-- pvr -->
 	<shortcut>
@@ -668,37 +668,37 @@
 		<thumb/>
 		<action>ActivateWindow(1122,return)</action>
 		<visible>[Library.HasContent(music)
-		| [System.HasAddon(plugin.video.embycon) + [
-		String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.0.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.1.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.2.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.3.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.4.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.5.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.6.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.7.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.8.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.9.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.10.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.11.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.12.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.13.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.14.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.15.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.16.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.17.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.18.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.19.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.20.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.21.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.22.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.23.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.24.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.25.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.26.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.27.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.28.type),music)
-		| String.IsEqual(Window(home).Property(plugin.video.embycon-view_item.29.type),music)
+		| [System.HasAddon(plugin.video.jellycon) + [
+		String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),music)
+		| String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),music)
 		]]]</visible>
 	</shortcut>
 	<shortcut>

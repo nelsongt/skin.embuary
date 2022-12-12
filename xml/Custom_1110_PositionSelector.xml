@@ -147,13 +147,13 @@
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),TagMixedHubWidgets)" content="PositionSelectorItems">
 							<param name="type" value="tagmixedhub"/>
 						</include>
-						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMovieHubWidgets)" content="PositionSelectorItems">
+						<include condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConMovieHubWidgets)" content="PositionSelectorItems">
 							<param name="type" value="jellyconmoviehub"/>
 						</include>
-						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConTVShowHubWidgets)" content="PositionSelectorItems">
+						<include condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConTVShowHubWidgets)" content="PositionSelectorItems">
 							<param name="type" value="jellycontvshowhub"/>
 						</include>
-						<include condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMusicHubWidgets)" content="PositionSelectorItems">
+						<include condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConMusicHubWidgets)" content="PositionSelectorItems">
 							<param name="type" value="jellyconmusichub"/>
 						</include>
 						<include condition="String.IsEqual(Window(home).Property(SelectorContent),CustomHubWidgets)" content="PositionSelectorItems">
@@ -310,9 +310,9 @@
 						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),TagMovieHubWidgets)">SetProperty(TagMovieHubWidgetsReset,1,home)</onclick>
 						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),TagTVShowHubWidgets)">SetProperty(TagTVShowHubWidgetsReset,1,home)</onclick>
 						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),TagMixedHubWidgets)">SetProperty(TagMixedHubWidgetsReset,1,home)</onclick>
-						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMovieHubWidgets)">SetProperty(EmbyConMovieHubWidgetsReset,1,home)</onclick>
-						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConTVShowHubWidgets)">SetProperty(EmbyConTVShowHubWidgetsReset,1,home)</onclick>
-						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),EmbyConMusicHubWidgets)">SetProperty(EmbyConMusicHubWidgetsReset,1,home)</onclick>
+						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConMovieHubWidgets)">SetProperty(JellyConMovieHubWidgetsReset,1,home)</onclick>
+						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConTVShowHubWidgets)">SetProperty(JellyConTVShowHubWidgetsReset,1,home)</onclick>
+						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),JellyConMusicHubWidgets)">SetProperty(JellyConMusicHubWidgetsReset,1,home)</onclick>
 						<onclick condition="String.IsEqual(Window(home).Property(SelectorContent),CustomHubWidgets)">SetProperty(CustomHubWidgetsReset,1,home)</onclick>
 						<onclick>ActivateWindow(1112)</onclick>
 						<onclick>AlarmClock(restorewidgets,ActivateWindow(1110),00:01,silent)</onclick>

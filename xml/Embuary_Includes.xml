@@ -996,7 +996,7 @@
 	<include name="SearchAction">
 		<onclick>SetProperty(CustomSearch,1,home)</onclick>
 		<onclick>Skin.Reset(CustomSearchTerm)</onclick>
-		<onclick>Skin.Reset(CustomSearchEmbyID)</onclick>
+		<onclick>Skin.Reset(CustomSearchJellyfinID)</onclick>
 		<onclick>Skin.SetString(CustomSearchTerm)</onclick>
 		<onclick>ActivateWindow(1115)</onclick>
 	</include>

@@ -210,7 +210,7 @@
 							<height>470</height>
 							<control type="image">
 								<height>420</height>
-								<texture>common/qr_emby_board.png</texture>
+								<texture>common/qr_jellyfin_board.png</texture>
 							</control>
 							<control type="label">
 								<bottom>0</bottom>

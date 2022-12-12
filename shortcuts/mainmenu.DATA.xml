@@ -373,7 +373,7 @@
 
 	<shortcut>
 		<defaultID>embuary_jellycon0</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.thumb)]</icon>
 		<thumb/>
@@ -382,7 +382,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon1</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.thumb)]</icon>
 		<thumb/>
@@ -391,7 +391,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon2</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.thumb)]</icon>
 		<thumb/>
@@ -400,7 +400,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon3</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.thumb)]</icon>
 		<thumb/>
@@ -409,7 +409,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon4</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.thumb)]</icon>
 		<thumb/>
@@ -418,7 +418,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon5</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.thumb)]</icon>
 		<thumb/>
@@ -427,7 +427,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon6</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.thumb)]</icon>
 		<thumb/>
@@ -436,7 +436,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon7</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.thumb)]</icon>
 		<thumb/>
@@ -445,7 +445,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon8</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.thumb)]</icon>
 		<thumb/>
@@ -454,7 +454,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon9</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.thumb)]</icon>
 		<thumb/>
@@ -463,7 +463,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon10</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.thumb)]</icon>
 		<thumb/>
@@ -472,7 +472,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon11</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.thumb)]</icon>
 		<thumb/>
@@ -481,7 +481,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon12</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.thumb)]</icon>
 		<thumb/>
@@ -490,7 +490,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon13</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.thumb)]</icon>
 		<thumb/>
@@ -499,7 +499,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon14</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.thumb)]</icon>
 		<thumb/>
@@ -508,7 +508,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon15</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.thumb)]</icon>
 		<thumb/>
@@ -517,7 +517,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon16</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.thumb)]</icon>
 		<thumb/>
@@ -526,7 +526,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon17</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.thumb)]</icon>
 		<thumb/>
@@ -535,7 +535,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon18</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.thumb)]</icon>
 		<thumb/>
@@ -544,7 +544,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon19</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.thumb)]</icon>
 		<thumb/>
@@ -553,7 +553,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon20</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.thumb)]</icon>
 		<thumb/>
@@ -562,7 +562,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon21</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.thumb)]</icon>
 		<thumb/>
@@ -571,7 +571,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon22</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.thumb)]</icon>
 		<thumb/>
@@ -580,7 +580,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon23</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.thumb)]</icon>
 		<thumb/>
@@ -589,7 +589,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon24</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.thumb)]</icon>
 		<thumb/>
@@ -598,7 +598,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon25</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.thumb)]</icon>
 		<thumb/>
@@ -607,7 +607,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon26</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.thumb)]</icon>
 		<thumb/>
@@ -616,7 +616,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon27</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.thumb)]</icon>
 		<thumb/>
@@ -625,7 +625,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon28</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.thumb)]</icon>
 		<thumb/>
@@ -634,7 +634,7 @@
 	</shortcut>
 	<shortcut>
 		<defaultID>embuary_jellycon29</defaultID>
-		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.name)] $VAR[EmbyConLabel]</label>
+		<label>$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.name)] $VAR[JellyConLabel]</label>
 		<label2/>
 		<icon>$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.thumb)]</icon>
 		<thumb/>

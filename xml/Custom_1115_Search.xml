@@ -59,7 +59,7 @@
 							<ondown>101</ondown>
 							<onclick>SetProperty(CustomSearch,1,home)</onclick>
 							<onclick>Skin.Reset(CustomSearchTerm)</onclick>
-							<onclick>Skin.Reset(CustomSearchEmbyID)</onclick>
+							<onclick>Skin.Reset(CustomSearchJellyfinID)</onclick>
 							<onclick>Skin.SetString(CustomSearchTerm)</onclick>
 							<visible>!$EXP[IsSearching]</visible>
 						</control>
@@ -92,11 +92,11 @@
 				<param name="id" value="102"/>
 				<param name="onup" value="101"/>
 				<param name="ondown" value="103"/>
-				<param name="headline" value="$LOCALIZE[342]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[342]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchMovies]"/>
+				<param name="content" value="$VAR[JellyCon.SearchMovies]"/>
 			</include>
 			<!-- tvshows -->
 			<include content="WideWidget">
@@ -113,11 +113,11 @@
 				<param name="id" value="104"/>
 				<param name="onup" value="103"/>
 				<param name="ondown" value="105"/>
-				<param name="headline" value="$LOCALIZE[20343]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[20343]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchShows]"/>
+				<param name="content" value="$VAR[JellyCon.SearchShows]"/>
 			</include>
 			<!-- episodes -->
 			<include content="WideWidget">
@@ -135,12 +135,12 @@
 				<param name="id" value="106"/>
 				<param name="onup" value="105"/>
 				<param name="ondown" value="107"/>
-				<param name="headline" value="$LOCALIZE[20360]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[20360]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="icon" value="$VAR[IconEpisodeThumb]"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchEpisodes]"/>
+				<param name="content" value="$VAR[JellyCon.SearchEpisodes]"/>
 			</include>
 			<!-- musicvid -->
 			<include content="WideWidget">
@@ -169,11 +169,11 @@
 				<param name="id" value="109"/>
 				<param name="onup" value="108"/>
 				<param name="ondown" value="110"/>
-				<param name="headline" value="$LOCALIZE[31233] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[31233] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchActorMovies]"/>
+				<param name="content" value="$VAR[JellyCon.SearchActorMovies]"/>
 			</include>
 			<include content="PosterWidget">
 				<param name="id" value="110"/>
@@ -189,11 +189,11 @@
 				<param name="id" value="111"/>
 				<param name="onup" value="110"/>
 				<param name="ondown" value="112"/>
-				<param name="headline" value="$LOCALIZE[31234] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[31234] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchActorShows]"/>
+				<param name="content" value="$VAR[JellyCon.SearchActorShows]"/>
 			</include>
 			<include content="WideWidget">
 				<param name="id" value="112"/>
@@ -210,12 +210,12 @@
 				<param name="id" value="113"/>
 				<param name="onup" value="112"/>
 				<param name="ondown" value="114"/>
-				<param name="headline" value="$LOCALIZE[31236] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[31236] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="icon" value="$VAR[IconEpisodeThumb]"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchActorEpisodes]"/>
+				<param name="content" value="$VAR[JellyCon.SearchActorEpisodes]"/>
 			</include>
 			<include content="PosterWidget">
 				<param name="id" value="114"/>
@@ -232,12 +232,12 @@
 				<param name="onup" value="114"/>
 				<param name="ondown" value="116"/>
 				<param name="height" value="552"/>
-				<param name="headline" value="$LOCALIZE[31157] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[31157] [CAPITALIZE]$VAR[SearchString][/CAPITALIZE]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="layout" value="CastLayout"/>
 				<param name="widget_target" value="videos"/>
-				<param name="content" value="$VAR[EmbyCon.SearchPerson]"/>
+				<param name="content" value="$VAR[JellyCon.SearchPerson]"/>
 			</include>
 			<!-- artists -->
 			<include content="SquareWidget">
@@ -265,11 +265,11 @@
 				<param name="id" value="118"/>
 				<param name="onup" value="117"/>
 				<param name="ondown" value="119"/>
-				<param name="headline" value="$LOCALIZE[132]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[132]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="music"/>
-				<param name="content" value="$VAR[EmbyCon.SearchAlbums]"/>
+				<param name="content" value="$VAR[JellyCon.SearchAlbums]"/>
 			</include>
 			<!-- songs -->
 			<include content="SquareWidget">
@@ -286,11 +286,11 @@
 				<param name="id" value="120"/>
 				<param name="onup" value="119"/>
 				<param name="ondown" value="121"/>
-				<param name="headline" value="$LOCALIZE[134]$VAR[EmbyConLabel]"/>
+				<param name="headline" value="$LOCALIZE[134]$VAR[JellyConLabel]"/>
 				<param name="force_visible" value="!String.IsEmpty(Window(home).Property(CustomSearch)) + !String.IsEmpty(Skin.String(CustomSearchTerm))"/>
 				<param name="use_custom_content" value="true"/>
 				<param name="widget_target" value="music"/>
-				<param name="content" value="$VAR[EmbyCon.SearchMusic]"/>
+				<param name="content" value="$VAR[JellyCon.SearchMusic]"/>
 			</include>
 		</control>
 		<!-- header bar -->

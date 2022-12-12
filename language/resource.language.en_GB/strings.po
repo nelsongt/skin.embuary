@@ -385,17 +385,17 @@ msgstr ""
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "EmbyCon: Search for movies"
+msgid "JellyCon: Search for movies"
 msgstr ""
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "EmbyCon: Search for TV shows"
+msgid "JellyCon: Search for TV shows"
 msgstr ""
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "EmbyCon: Search for episodes"
+msgid "JellyCon: Search for episodes"
 msgstr ""
 
 #: /xml/Custom_1110_testwindow.xml
@@ -440,12 +440,12 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
-msgid "Show custom shortcuts in Emby nodes"
+msgid "Show custom shortcuts in Jellyfin nodes"
 msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show EmbyCon source label"
+msgid "Show JellyCon source label"
 msgstr ""
 
 #: /xml/SkinSettings.xml
@@ -480,7 +480,7 @@ msgstr ""
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
-msgid "This skin is designed to simulate the web gui experience of Emby. In order to get everything running as it should, it's recommended to set the following Kodi options:"
+msgid "This skin is designed to simulate the web gui experience of Jellyfin. In order to get everything running as it should, it's recommended to set the following Kodi options:"
 msgstr ""
 
 #: /xml/Custom_1119_StartUp.xml
@@ -585,7 +585,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31113"
-msgid "Show button to change the EmbyCon user"
+msgid "Show button to change the JellyCon user"
 msgstr ""
 
 #: /xml/SkinSettings.xml
@@ -610,7 +610,7 @@ msgstr ""
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
+msgid "JellyCon sources"
 msgstr ""
 
 #: /xml/DialogPVRChannelsOSD.xml
@@ -820,7 +820,7 @@ msgstr ""
 
 #: /shortcuts/moviehub.DATA.xml
 msgctxt "#31160"
-msgid "Movies - EmbyCon"
+msgid "Movies - JellyCon"
 msgstr ""
 
 #: /xml/Embuary_Includes.xml
@@ -925,7 +925,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
+msgid "Jellyfin node"
 msgstr ""
 
 #: /xml/Embuary_TagHubIncludes.xml
@@ -933,12 +933,12 @@ msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr ""
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr ""
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr ""
@@ -950,7 +950,7 @@ msgstr ""
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
+msgid "Jellyfin stream"
 msgstr ""
 
 #: /xml/Embuary_Variables.xml
@@ -1060,40 +1060,40 @@ msgstr ""
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
-msgid "EmbyCon node"
+msgid "JellyCon node"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31209"
 msgid "Unwatched movies"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31210"
 msgid "Unwatched TV shows"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31211"
 msgid "Recently played songs"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31212"
 msgid "Favourite artists"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31213"
 msgid "Favourite albums"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31214"
 msgid "Favourite songs"
 msgstr ""
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31215"
 msgid "Often played songs"
 msgstr ""
@@ -1130,7 +1130,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31222"
-msgid "Support at emby.media"
+msgid "Support at jellyfin.org"
 msgstr ""
 
 #: /xml/Embuary_Variables.xml
@@ -1145,12 +1145,12 @@ msgstr ""
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
-msgid "EmbyCon login"
+msgid "JellyCon login"
 msgstr ""
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
-msgid "Change EmbyCon user"
+msgid "Change JellyCon user"
 msgstr ""
 
 #: /xml/Embuary_InfoDialog.xml
@@ -1215,17 +1215,17 @@ msgstr ""
 
 #: /shortcuts/tvshowhub.DATA.xml
 msgctxt "#31239"
-msgid "TV shows - EmbyCon"
+msgid "TV shows - JellyCon"
 msgstr ""
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31240"
-msgid "Artists - EmbyCon"
+msgid "Artists - JellyCon"
 msgstr ""
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31241"
-msgid "Albums - EmbyCon"
+msgid "Albums - JellyCon"
 msgstr ""
 
 #: /xml/Embuary_Includes.xml
@@ -1305,7 +1305,7 @@ msgstr ""
 
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
-msgid "Try to use an Emby styled artwork"
+msgid "Try to use an Jellyfin styled artwork"
 msgstr ""
 
 #: /xml/Embuary_Variables.xml
@@ -1430,7 +1430,7 @@ msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
-msgid "EmbyCon nodes"
+msgid "JellyCon nodes"
 msgstr ""
 
 #: /xml/SkinSettings.xml
@@ -1870,7 +1870,7 @@ msgstr ""
 
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31370"
-msgid "Show Emby based Rotten Tomatoes ratings (uses user ratings)"
+msgid "Show Jellyfin based Rotten Tomatoes ratings (uses user ratings)"
 msgstr ""
 
 #: /xml/Embuary_MetaIncludes.xml

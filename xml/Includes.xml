@@ -24,7 +24,7 @@
 	<include file="Embuary_Genre_View.xml" />
 	<include file="Embuary_Lyrics.xml" />
 	<include file="Embuary_TagHubIncludes.xml" />
-	<include file="Embuary_EmbyConHubIncludes.xml" />
+	<include file="Embuary_JellyConHubIncludes.xml" />
 	<include file="Embuary_Settings.xml" />
 	<include file="Embuary_WidgetTemplates.xml" />
 	<include file="Embuary_WidgetCalls.xml" />
@@ -75,9 +75,9 @@
 		]
 	</expression>
 
-	<expression name="HasEmbyContext">[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) | !String.IsEmpty(ListItem.Property(embyid))] + !String.IsEmpty(Window(10000).Property(emby_context)) + !Skin.HasSetting(KioskMode) + !String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
+	<expression name="HasJellyContext">[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) | !String.IsEmpty(ListItem.Property(jellyfinid))] + !String.IsEmpty(Window(10000).Property(emby_context)) + !Skin.HasSetting(KioskMode) + !String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
 
-	<expression name="HasEmbyConContext">[!String.IsEmpty(ListItem.Property(id)) + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
+	<expression name="HasJellyConContext">[!String.IsEmpty(ListItem.Property(id)) + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
 
 	<expression name="HasLibraryEditButton">[!Skin.HasSetting(HideLibraryEditButtons) + !Skin.HasSetting(KioskMode) + !String.StartsWith(ListItem.Path,plugin://)]</expression>
 
@@ -107,9 +107,9 @@
 
 	<expression name="ScrollbarContainers">[Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(53) | Control.IsVisible(58) | Control.IsVisible(59)]</expression>
 
-	<expression name="IsPlugin">[String.StartsWith(Container.Folderpath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.emby/)]</expression>
+	<expression name="IsPlugin">[String.StartsWith(Container.Folderpath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin/)]</expression>
 
-	<expression name="IsEmbyConSource">[String.StartsWith(Container.Folderpath,plugin://plugin.video.jellycon) | Window.IsVisible(1160) | Window.IsVisible(1161) | Window.IsVisible(1162) | Window.IsVisible(1163) | Window.IsVisible(1164) | Window.IsVisible(1165) | Window.IsVisible(1166) | Window.IsVisible(1167) | Window.IsVisible(1168) | Window.IsVisible(1169)]</expression>
+	<expression name="IsJellyConSource">[String.StartsWith(Container.Folderpath,plugin://plugin.video.jellycon) | Window.IsVisible(1160) | Window.IsVisible(1161) | Window.IsVisible(1162) | Window.IsVisible(1163) | Window.IsVisible(1164) | Window.IsVisible(1165) | Window.IsVisible(1166) | Window.IsVisible(1167) | Window.IsVisible(1168) | Window.IsVisible(1169)]</expression>
 
 	<expression name="IsSearching">[Container(101).IsUpdating | Container(102).IsUpdating | Container(103).IsUpdating | Container(104).IsUpdating | Container(105).IsUpdating | Container(106).IsUpdating | Container(107).IsUpdating | Container(108).IsUpdating | Container(109).IsUpdating | Container(110).IsUpdating | Container(111).IsUpdating | Container(112).IsUpdating | Container(113).IsUpdating | Container(114).IsUpdating | Container(115).IsUpdating | Container(116).IsUpdating | Container(117).IsUpdating | Container(118).IsUpdating | Container(119).IsUpdating | Container(120).IsUpdating | Container(121).IsUpdating]</expression>
 
@@ -184,7 +184,7 @@
 
 	<expression name="SeasonViewVisible">[
 		Container.Content(seasons)
-		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.emby)]
+		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin)]
 		]
 	</expression>
 
@@ -196,8 +196,8 @@
 			+ ![String.Contains(Container.FolderPath,BoxSet) + !String.Contains(Container.FolderPath,CollapseBoxSet) + Container.Content(movies)]
 			+ !Window.IsVisible(MyPVRguide.xml)
 		]
-		| [Container.Content(episodes) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.emby) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) + !String.StartsWith(Container.FolderPath,plugin://script.embuary) + !String.StartsWith(plugin.video.plexkodiconnect)]
-		| [Container.Content(seasons) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.emby)]
+		| [Container.Content(episodes) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) + !String.StartsWith(Container.FolderPath,plugin://script.embuary) + !String.StartsWith(plugin.video.plexkodiconnect)]
+		| [Container.Content(seasons) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin)]
 		| Window.IsVisible(MyPics.xml)
 		]
 	</expression>
@@ -205,7 +205,7 @@
 	<expression name="EpisodeViewVisible">[
 		Container.Content(episodes)
 		+ !Window.IsVisible(pictures)
-		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.emby) | String.StartsWith(Container.FolderPath,plugin://script.embuary) | String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) | String.StartsWith(plugin.video.plexkodiconnect)]
+		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin) | String.StartsWith(Container.FolderPath,plugin://script.embuary) | String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) | String.StartsWith(plugin.video.plexkodiconnect)]
 		]
 	</expression>
 

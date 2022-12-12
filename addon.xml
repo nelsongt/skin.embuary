@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.embuary-matrix" version="19.0.1" name="Embuary (Matrix)" provider-name="sualfred">
+<addon id="skin.embuary-matrix" version="19.0.5" name="Embuary (Matrix)" provider-name="sualfred">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.embuary.helper" version="1.3.6"/>
@@ -14,8 +14,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Embuary skin by Sualfred</summary>
 		<summary lang="de_DE">Embuary Skin von Sualfred</summary>
-		<description lang="en_GB">Embuary is based on the web UI of Emby and has been developed for Emby-For-Kodi and EmbyCon users, but will also work for any other common Kodi setup.</description>
-		<description lang="de_DE">Embuary ist dem Web UI von Emby nachempfunden und für Emby-For-Kodi und EmbyCon Nutzer entwickelt worden, aber funktioniert auch für alle gängigen Kodi Setups.</description>
+		<description lang="en_GB">Embuary is based on the web UI of Jellyfin and has been developed for Jellyfin-For-Kodi and JellyCon users, but will also work for any other common Kodi setup.</description>
+		<description lang="de_DE">Embuary ist dem Web UI von Jellyfin nachempfunden und für Jellyfin-For-Kodi und JellyCon Nutzer entwickelt worden, aber funktioniert auch für alle gängigen Kodi Setups.</description>
 		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. I'm not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
 		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Ich stehe in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
 		<platform>all</platform>

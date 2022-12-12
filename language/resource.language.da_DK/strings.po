@@ -394,18 +394,18 @@ msgstr "Lokal søgning"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "EmbyCon: Search for movies"
-msgstr "EmbyCon: Søg efter film"
+msgid "JellyCon: Search for movies"
+msgstr "JellyCon: Søg efter film"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "EmbyCon: Search for TV shows"
-msgstr "EmbyCon: Søg efter tv-shows"
+msgid "JellyCon: Search for TV shows"
+msgstr "JellyCon: Søg efter tv-shows"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "EmbyCon: Search for episodes"
-msgstr "EmbyCon: Søg efter episoder"
+msgid "JellyCon: Search for episodes"
+msgstr "JellyCon: Søg efter episoder"
 
 #: /xml/Custom_1110_testwindow.xml
 msgctxt "#31076"
@@ -449,13 +449,13 @@ msgstr "Widgets"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
-msgid "Show custom shortcuts in Emby nodes"
-msgstr "Vis brugerdefinerede genveje i Emby-noder"
+msgid "Show custom shortcuts in Jellyfin nodes"
+msgstr "Vis brugerdefinerede genveje i Jellyfin-noder"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show EmbyCon source label"
-msgstr "Vis EmbyCon kilde etiket"
+msgid "Show JellyCon source label"
+msgstr "Vis JellyCon kilde etiket"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
@@ -490,7 +490,7 @@ msgstr "Velkommen til Embuary"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
 msgid ""
-"This skin is designed to simulate the web gui experience of Emby.[CR]In "
+"This skin is designed to simulate the web gui experience of Jellyfin.[CR]In "
 "order to get everything running as it should, it's recommended to set the "
 "following Kodi options:[CR][CR][COLOR blue]• Disable mouse[CR]• Hide parent "
 "folder items[CR]• Select first unwatched season/episode: "
@@ -498,7 +498,7 @@ msgid ""
 "and will be valid for all installed skins.[CR]But don't panic, all settings "
 "can be reverted in the Kodi settings."
 msgstr ""
-"Dette skin er designet til at simulere webgui oplevelsen af Emby. [CR]For at"
+"Dette skin er designet til at simulere webgui oplevelsen af Jellyfin. [CR]For at"
 " få alt i gang som det skal, anbefales det at indstille følgende Kodi "
 "muligheder:[CR][CR][COLOR blue]• Deaktiver musen[CR]• Skjul overordnede "
 "mappeposter[CR]• Vælg første ikke sete TV-serie sæson / episode : "
@@ -577,11 +577,11 @@ msgctxt "#31106"
 msgid ""
 "Configure menu items and widgets of the home window and hubs. Because of "
 "technical limitations, please note that custom items won't be applied to "
-"Emby nodes."
+"Jellyfin nodes."
 msgstr ""
 "Konfigurer menupunkter og widgets i hjemvinduet og hubs. På grund af "
 "tekniske begrænsninger skal du være opmærksom på, at brugerdefinerede emner "
-"ikke vil blive anvendt på Emby-noder."
+"ikke vil blive anvendt på Jellyfin-noder."
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31107"
@@ -615,8 +615,8 @@ msgstr "Kiosk tilstand"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31113"
-msgid "Show button to change the EmbyCon user"
-msgstr "Vis knap til at ændre EmbyCon-brugeren"
+msgid "Show button to change the JellyCon user"
+msgstr "Vis knap til at ændre JellyCon-brugeren"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31114"
@@ -640,8 +640,8 @@ msgstr "Udskift enhedens navn i overskriftsfeltet"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
-msgstr "EmbyCon kilder"
+msgid "JellyCon sources"
+msgstr "JellyCon kilder"
 
 #: /xml/DialogPVRChannelsOSD.xml
 msgctxt "#31119"
@@ -858,8 +858,8 @@ msgstr "Ingen etiket"
 
 #: /shortcuts/moviehub.DATA.xml
 msgctxt "#31160"
-msgid "Movies - EmbyCon"
-msgstr "Film - EmbyCon"
+msgid "Movies - JellyCon"
+msgstr "Film - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31161"
@@ -963,20 +963,20 @@ msgstr "Alle Film"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
-msgstr "Emby node"
+msgid "Jellyfin node"
+msgstr "Jellyfin node"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr "Anbefalede TV-serier"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr "Anbefalede film"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr "Tilfældige film"
@@ -988,8 +988,8 @@ msgstr "Tilfældige TV-serier"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
-msgstr "Emby stream"
+msgid "Jellyfin stream"
+msgstr "Jellyfin stream"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"
@@ -1098,40 +1098,40 @@ msgstr "Gendan standard hovedmenu konfiguration"
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
-msgid "EmbyCon node"
-msgstr "EmbyCon node"
+msgid "JellyCon node"
+msgstr "JellyCon node"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31209"
 msgid "Unwatched movies"
 msgstr "Ikke set film"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31210"
 msgid "Unwatched TV shows"
 msgstr "Ikke set TV-serier"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31211"
 msgid "Recently played songs"
 msgstr "Nyligt afspillede sange"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31212"
 msgid "Favourite artists"
 msgstr "Favorit kunstnere"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31213"
 msgid "Favourite albums"
 msgstr "Favorit albummer"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31214"
 msgid "Favourite songs"
 msgstr "Favorit sange"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31215"
 msgid "Often played songs"
 msgstr "Ofte spillede sange"
@@ -1183,13 +1183,13 @@ msgstr "Strømmenu"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
-msgid "EmbyCon login"
-msgstr "EmbyCon login"
+msgid "JellyCon login"
+msgstr "JellyCon login"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
-msgid "Change EmbyCon user"
-msgstr "Skift EmbyCon-bruger"
+msgid "Change JellyCon user"
+msgstr "Skift JellyCon-bruger"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31227"
@@ -1258,18 +1258,18 @@ msgstr "Medvirkende information"
 
 #: /shortcuts/tvshowhub.DATA.xml
 msgctxt "#31239"
-msgid "TV shows - EmbyCon"
-msgstr "TV-serier - EmbyCon"
+msgid "TV shows - JellyCon"
+msgstr "TV-serier - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31240"
-msgid "Artists - EmbyCon"
-msgstr "Kunstnere - EmbyCon"
+msgid "Artists - JellyCon"
+msgstr "Kunstnere - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31241"
-msgid "Albums - EmbyCon"
-msgstr "Albummer - EmbyCon"
+msgid "Albums - JellyCon"
+msgstr "Albummer - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31242"
@@ -1348,8 +1348,8 @@ msgstr "Lige nu"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
-msgid "Try to use an Emby styled artwork"
-msgstr "Prøv at bruge et Emby stylet kunstværk"
+msgid "Try to use an Jellyfin styled artwork"
+msgstr "Prøv at bruge et Jellyfin stylet kunstværk"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31258"
@@ -1462,8 +1462,8 @@ msgstr "Forslag efter genre"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31279"
-msgid "Emby nodes"
-msgstr "Emby noder"
+msgid "Jellyfin nodes"
+msgstr "Jellyfin noder"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31280"
@@ -1477,8 +1477,8 @@ msgstr "Rediger film widget konfiguration"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
-msgid "EmbyCon nodes"
-msgstr "EmbyCon noder"
+msgid "JellyCon nodes"
+msgstr "JellyCon noder"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31283"

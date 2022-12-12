@@ -117,7 +117,7 @@
 								<property name="icon">&#xf349;</property>
 								<onclick>SetProperty(CustomSearch,1,home)</onclick>
 								<onclick>Skin.SetString(CustomSearchTerm,$INFO[Container(10051).ListItem.Label])</onclick>
-								<onclick>Skin.Reset(CustomSearchEmbyID)</onclick>
+								<onclick>Skin.Reset(CustomSearchJellyfinID)</onclick>
 								<onclick>Dialog.Close(all)</onclick>
 								<onclick>ActivateWindow(1115)</onclick>
 								<onclick>AlarmClock(Wait,ClearProperty(CustomSearch,home),00:01,silent)</onclick>

@@ -230,7 +230,7 @@
 		<control type="button" id="$PARAM[id]23">
 			<include>SettingsButton</include>
 			<onclick>SetProperty(PositionCount,5,home)</onclick>
-			<onclick>SetProperty(SelectorContent,EmbyConMovieHubWidgets,home)</onclick>
+			<onclick>SetProperty(SelectorContent,JellyConMovieHubWidgets,home)</onclick>
 			<onclick>ActivateWindow(1110)</onclick>
 			<label>$LOCALIZE[31281]</label>
 			<visible>System.HasAddon(plugin.video.jellycon)</visible>
@@ -238,7 +238,7 @@
 		<control type="button" id="$PARAM[id]24">
 			<include>SettingsButton</include>
 			<onclick>SetProperty(PositionCount,6,home)</onclick>
-			<onclick>SetProperty(SelectorContent,EmbyConTVShowHubWidgets,home)</onclick>
+			<onclick>SetProperty(SelectorContent,JellyConTVShowHubWidgets,home)</onclick>
 			<onclick>ActivateWindow(1110)</onclick>
 			<label>$LOCALIZE[31280]</label>
 			<visible>System.HasAddon(plugin.video.jellycon)</visible>
@@ -246,15 +246,15 @@
 		<control type="button" id="$PARAM[id]25">
 			<include>SettingsButton</include>
 			<onclick>SetProperty(PositionCount,6,home)</onclick>
-			<onclick>SetProperty(SelectorContent,EmbyConMusicHubWidgets,home)</onclick>
+			<onclick>SetProperty(SelectorContent,JellyConMusicHubWidgets,home)</onclick>
 			<onclick>ActivateWindow(1110)</onclick>
 			<label>$LOCALIZE[31283]</label>
 			<visible>System.HasAddon(plugin.video.jellycon)</visible>
 		</control>
 		<control type="radiobutton" id="$PARAM[id]26">
 			<include>SettingsButton</include>
-			<onclick>Skin.ToggleSetting(HideEmbyConLabel)</onclick>
-			<selected>!Skin.HasSetting(HideEmbyConLabel)</selected>
+			<onclick>Skin.ToggleSetting(HideJellyConLabel)</onclick>
+			<selected>!Skin.HasSetting(HideJellyConLabel)</selected>
 			<label>$LOCALIZE[31085]</label>
 			<visible>System.HasAddon(plugin.video.jellycon)</visible>
 		</control>
@@ -724,10 +724,10 @@
 		</control>
 		<control type="radiobutton" id="$PARAM[id]22">
 			<include>SettingsButton</include>
-			<onclick>Skin.ToggleSetting(DisableEmbyUserRating)</onclick>
-			<selected>!Skin.HasSetting(DisableEmbyUserRating)</selected>
+			<onclick>Skin.ToggleSetting(DisableJellyfinUserRating)</onclick>
+			<selected>!Skin.HasSetting(DisableJellyfinUserRating)</selected>
 			<label>$LOCALIZE[31370]</label>
-			<enable>[System.HasAddon(plugin.video.emby) | System.HasAddon(plugin.video.jellycon)]</enable>
+			<enable>[System.HasAddon(plugin.video.jellyfin) | System.HasAddon(plugin.video.jellycon)]</enable>
 		</control>
 		<!-- PVR -->
 		<include content="SkinSettingsHeadlineLabel">

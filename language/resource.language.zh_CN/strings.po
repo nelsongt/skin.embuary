@@ -394,18 +394,18 @@ msgstr "本地搜索"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "EmbyCon: Search for movies"
-msgstr "Embycon: 搜索电影"
+msgid "JellyCon: Search for movies"
+msgstr "Jellyfincon: 搜索电影"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "EmbyCon: Search for TV shows"
-msgstr "Embycon: 搜索电视节目"
+msgid "JellyCon: Search for TV shows"
+msgstr "Jellyfincon: 搜索电视节目"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "EmbyCon: Search for episodes"
-msgstr "Embycon: 搜索剧集"
+msgid "JellyCon: Search for episodes"
+msgstr "Jellyfincon: 搜索剧集"
 
 #: /xml/Custom_1110_testwindow.xml
 msgctxt "#31076"
@@ -449,13 +449,13 @@ msgstr "小部件"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
-msgid "Show custom shortcuts in Emby nodes"
-msgstr "在 Emby 节点中显示自定义快捷方式"
+msgid "Show custom shortcuts in Jellyfin nodes"
+msgstr "在 Jellyfin 节点中显示自定义快捷方式"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show EmbyCon source label"
-msgstr "显示 EmbyCon 源标签"
+msgid "Show JellyCon source label"
+msgstr "显示 JellyCon 源标签"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
@@ -490,10 +490,10 @@ msgstr "欢迎使用 Embuary"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
 msgid ""
-"This skin is designed to simulate the web gui experience of Emby. In order "
+"This skin is designed to simulate the web gui experience of Jellyfin. In order "
 "to get everything running as it should, it's recommended to set the "
 "following Kodi options:"
-msgstr "这个皮肤是为了在Kodi中尽量达到网页版的Emby的体验而设计的。为了让皮肤能够正常运行，建议设置以下选项："
+msgstr "这个皮肤是为了在Kodi中尽量达到网页版的Jellyfin的体验而设计的。为了让皮肤能够正常运行，建议设置以下选项："
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31093"
@@ -597,8 +597,8 @@ msgstr "自助终端模式（不允许编辑视图）"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31113"
-msgid "Show button to change the EmbyCon user"
-msgstr "显示切换EmbyCon用户的按钮"
+msgid "Show button to change the JellyCon user"
+msgstr "显示切换JellyCon用户的按钮"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31114"
@@ -622,8 +622,8 @@ msgstr "替换标题栏中的设备名称"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
-msgstr "EmbyCon来源"
+msgid "JellyCon sources"
+msgstr "JellyCon来源"
 
 #: /xml/DialogPVRChannelsOSD.xml
 msgctxt "#31119"
@@ -837,8 +837,8 @@ msgstr "无标签"
 
 #: /shortcuts/moviehub.DATA.xml
 msgctxt "#31160"
-msgid "Movies - EmbyCon"
-msgstr "电影 -  EmbyCon"
+msgid "Movies - JellyCon"
+msgstr "电影 -  JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31161"
@@ -942,20 +942,20 @@ msgstr "所有电影"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
-msgstr "Emby节点"
+msgid "Jellyfin node"
+msgstr "Jellyfin节点"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr "推荐电视节目"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr "推荐电影"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr "随机电影"
@@ -967,8 +967,8 @@ msgstr "随机电视节目"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
-msgstr "Emby媒体流"
+msgid "Jellyfin stream"
+msgstr "Jellyfin媒体流"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"
@@ -1077,40 +1077,40 @@ msgstr "恢复默认主菜单配置"
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
-msgid "EmbyCon node"
-msgstr "EmbyCon节点"
+msgid "JellyCon node"
+msgstr "JellyCon节点"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31209"
 msgid "Unwatched movies"
 msgstr "未观看的电影"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31210"
 msgid "Unwatched TV shows"
 msgstr "未观看的电视节目"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31211"
 msgid "Recently played songs"
 msgstr "最近播放的歌曲"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31212"
 msgid "Favourite artists"
 msgstr "最喜欢的艺术家"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31213"
 msgid "Favourite albums"
 msgstr "最喜欢的专辑"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31214"
 msgid "Favourite songs"
 msgstr "最喜欢的歌曲"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31215"
 msgid "Often played songs"
 msgstr "经常播放歌曲"
@@ -1147,8 +1147,8 @@ msgstr "使用EPG缩略图获取PVR小部件（如果有）"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31222"
-msgid "Support at emby.media"
-msgstr "在emby.media上支持"
+msgid "Support at jellyfin.org"
+msgstr "在jellyfin.org上支持"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31223"
@@ -1162,13 +1162,13 @@ msgstr "电源菜单"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
-msgid "EmbyCon login"
-msgstr "EmbyCon登录"
+msgid "JellyCon login"
+msgstr "JellyCon登录"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
-msgid "Change EmbyCon user"
-msgstr "切换EmbyCon用户"
+msgid "Change JellyCon user"
+msgstr "切换JellyCon用户"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31227"
@@ -1234,18 +1234,18 @@ msgstr "事实"
 
 #: /shortcuts/tvshowhub.DATA.xml
 msgctxt "#31239"
-msgid "TV shows - EmbyCon"
-msgstr "电视节目 -  EmbyCon"
+msgid "TV shows - JellyCon"
+msgstr "电视节目 -  JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31240"
-msgid "Artists - EmbyCon"
-msgstr "艺术家 -  EmbyCon"
+msgid "Artists - JellyCon"
+msgstr "艺术家 -  JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31241"
-msgid "Albums - EmbyCon"
-msgstr "专辑 -  EmbyCon"
+msgid "Albums - JellyCon"
+msgstr "专辑 -  JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31242"
@@ -1324,8 +1324,8 @@ msgstr "此时此刻"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
-msgid "Try to use an Emby styled artwork"
-msgstr "尝试使用Emby风格的艺术品"
+msgid "Try to use an Jellyfin styled artwork"
+msgstr "尝试使用Jellyfin风格的艺术品"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31258"
@@ -1451,8 +1451,8 @@ msgstr "编辑电影小部件配置"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
-msgid "EmbyCon nodes"
-msgstr "EmbyCon节点"
+msgid "JellyCon nodes"
+msgstr "JellyCon节点"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31283"
@@ -1907,7 +1907,7 @@ msgstr "简介"
 
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31370"
-msgid "Show Emby based Rotten Tomatoes ratings (uses user ratings)"
+msgid "Show Jellyfin based Rotten Tomatoes ratings (uses user ratings)"
 msgstr "根据烂番茄评分展示（使用用户评分）"
 
 #: /xml/Embuary_MetaIncludes.xml

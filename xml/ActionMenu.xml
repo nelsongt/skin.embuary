@@ -4,7 +4,7 @@
     <zorder>2</zorder>
     <include>PropertyIncludes</include>
     <controls>
-        <!-- EmbyCon dialog -->
+        <!-- JellyCon dialog -->
         <control type="group">
             <!-- hidden container -->
             <control type="list" id="3000">

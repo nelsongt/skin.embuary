@@ -988,7 +988,7 @@
 		</definition>
 	</include>-->
 	<!-- Main Menu -->
-	<include name="EmbyFakeArt">
+	<include name="JellyfinFakeArt">
 		<control type="group">
 			<width>66</width>
 			<left>$PARAM[left]</left>
@@ -1119,7 +1119,7 @@
 						<visible>String.StartsWith(ListItem.Icon,Default) | String.IsEmpty(ListItem.Icon)</visible>
 					</control>
 				</control>
-				<!-- emby styled art -->
+				<!-- jellyfin styled art -->
 				<control type="group">
 					<visible>String.IsEqual(ListItem.Property(useFakeArt),true) + [!String.IsEmpty(ListItem.Property(Art1)) | !String.IsEmpty(ListItem.Property(Icon1))] + [!String.IsEmpty(ListItem.Property(Art2)) | !String.IsEmpty(ListItem.Property(Icon2))] + [!String.IsEmpty(ListItem.Property(Art3)) | !String.IsEmpty(ListItem.Property(Icon3))] + [!String.IsEmpty(ListItem.Property(Art4)) | !String.IsEmpty(ListItem.Property(Icon4))]</visible>
 					<top>2</top>
@@ -1131,22 +1131,22 @@
 						<texture colordiffuse="ff010202">common/white.jpg</texture>
 					</control>
 					<!-- art 1 -->
-					<include content="EmbyFakeArt">
+					<include content="JellyfinFakeArt">
 						<param name="left" value="3"/>
 						<param name="pos" value="1"/>
 					</include>
 					<!-- art 2 -->
-					<include content="EmbyFakeArt">
+					<include content="JellyfinFakeArt">
 						<param name="left" value="73"/>
 						<param name="pos" value="2"/>
 					</include>
 					<!-- art 3 -->
-					<include content="EmbyFakeArt">
+					<include content="JellyfinFakeArt">
 						<param name="left" value="142"/>
 						<param name="pos" value="3"/>
 					</include>
 					<!-- art 4 -->
-					<include content="EmbyFakeArt">
+					<include content="JellyfinFakeArt">
 						<param name="left" value="211"/>
 						<param name="pos" value="4"/>
 					</include>

@@ -392,18 +392,18 @@ msgstr "Lokal sökning"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "Search for movies in Emby"
-msgstr "Sök efter filmer i Emby"
+msgid "Search for movies in Jellyfin"
+msgstr "Sök efter filmer i Jellyfin"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "Search for TV shows in Emby"
-msgstr "Sök efter TV-serier i Emby"
+msgid "Search for TV shows in Jellyfin"
+msgstr "Sök efter TV-serier i Jellyfin"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "Search for episodes in Emby"
-msgstr "Sök efter avsnitt i Emby"
+msgid "Search for episodes in Jellyfin"
+msgstr "Sök efter avsnitt i Jellyfin"
 
 #: /xml/Custom_1110_testwindow.xml
 msgctxt "#31076"
@@ -452,8 +452,8 @@ msgstr "Visa widgets baserade på det lokala Kodibiblioteket"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show widgets based on the EmbyCon plugin"
-msgstr "Visa widgets baserade på EmbyCon"
+msgid "Show widgets based on the JellyCon plugin"
+msgstr "Visa widgets baserade på JellyCon"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
@@ -488,7 +488,7 @@ msgstr "Välkommen till Embuary"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
 msgid ""
-"This skin is designed to simulate the web gui experience of Emby.[CR]In "
+"This skin is designed to simulate the web gui experience of Jellyfin.[CR]In "
 "order to get everything running as it should, it's recommended to set the "
 "following Kodi options:[CR][CR][COLOR blue]- Disable mouse -[CR]- Hide "
 "parent folder items -[CR]- Auto focus first unwatched episode in video "
@@ -496,7 +496,7 @@ msgid ""
 "and will be valid for all installed skins.[CR]But don't panic, all settings "
 "can be reverted in the Kodi settings."
 msgstr ""
-"Detta skal är designat för att simulera Embys webbgränssnitt[CR]För att allt"
+"Detta skal är designat för att simulera Jellyfins webbgränssnitt[CR]För att allt"
 " ska fungera som det ska är det rekommenderat att följande inställningar "
 "görs i Kodi:[CR][CR][COLOR blue]- Inaktivera mus -[CR]- Dölj objekt till "
 "överordnad mapp -[CR]- Autofokus på första osedda avsnitt i videobiblioteket"
@@ -631,7 +631,7 @@ msgstr "Ersätt enhetsnamn i toppmenyn"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
+msgid "JellyCon sources"
 msgstr ""
 
 #: /xml/DialogPVRChannelsOSD.xml
@@ -676,8 +676,8 @@ msgstr "Slumpa bildspel"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31127"
-msgid "Show EmbyCon buttons and options"
-msgstr "Visa knappar och val för EmbyCon"
+msgid "Show JellyCon buttons and options"
+msgstr "Visa knappar och val för JellyCon"
 
 #: /xml/AddonBrowser.xml
 msgctxt "#31128"
@@ -955,20 +955,20 @@ msgstr "Alla filmer"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
-msgstr "Embynod"
+msgid "Jellyfin node"
+msgstr "Jellyfinnod"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr "Rekommenderade TV-serier"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr "Rekommenderade filmer"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr "Slumpmässiga filmer"
@@ -980,8 +980,8 @@ msgstr "Slumpmässiga TV-serier"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
-msgstr "Embyström"
+msgid "Jellyfin stream"
+msgstr "Jellyfinström"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"

@@ -394,18 +394,18 @@ msgstr "로컬 검색"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "EmbyCon: Search for movies"
-msgstr "EmbyCon: 영화 검색"
+msgid "JellyCon: Search for movies"
+msgstr "JellyCon: 영화 검색"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "EmbyCon: Search for TV shows"
-msgstr "EmbyCon: TV 쇼 검색"
+msgid "JellyCon: Search for TV shows"
+msgstr "JellyCon: TV 쇼 검색"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "EmbyCon: Search for episodes"
-msgstr "EmbyCon: 에피소드 검색"
+msgid "JellyCon: Search for episodes"
+msgstr "JellyCon: 에피소드 검색"
 
 #: /xml/Custom_1110_testwindow.xml
 msgctxt "#31076"
@@ -449,13 +449,13 @@ msgstr "위젯"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
-msgid "Show custom shortcuts in Emby nodes"
-msgstr "Emby 노드에 사용자 정의 바로 가기표시"
+msgid "Show custom shortcuts in Jellyfin nodes"
+msgstr "Jellyfin 노드에 사용자 정의 바로 가기표시"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show EmbyCon source label"
-msgstr "EmbyCon 소스 레이블 표시"
+msgid "Show JellyCon source label"
+msgstr "JellyCon 소스 레이블 표시"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
@@ -490,7 +490,7 @@ msgstr "Embuary에 오신 것을 환영합니다"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
 msgid ""
-"This skin is designed to simulate the web gui experience of Emby.[CR]In "
+"This skin is designed to simulate the web gui experience of Jellyfin.[CR]In "
 "order to get everything running as it should, it's recommended to set the "
 "following Kodi options:[CR][CR][COLOR blue]• Disable mouse[CR]• Hide parent "
 "folder items[CR]• Select first unwatched season/episode: "
@@ -498,7 +498,7 @@ msgid ""
 "and will be valid for all installed skins.[CR]But don't panic, all settings "
 "can be reverted in the Kodi settings."
 msgstr ""
-"이 스킨은 Emby의 웹 GUI 경험을 시뮬레이션하도록 설계되었습니다[CR]모든 것이 정상적으로 실행되도록 하려면 다음 Kodi 옵션을 "
+"이 스킨은 Jellyfin의 웹 GUI 경험을 시뮬레이션하도록 설계되었습니다[CR]모든 것이 정상적으로 실행되도록 하려면 다음 Kodi 옵션을 "
 "설정하는 것을 추천:[CR][CR][COLOR blue]• 마우스 사용 안함[CR]• 상위 폴더 항목 숨기기[CR]• 안본 "
 "시즌/에피소드를 먼저 선택 '항상'[/COLOR][CR][CR]이 설정은 전역이며 설치된 모든 스킨에 유효합니다.[CR]그러나 당황하지 "
 "마십시오. 모든 설정은 Kodi 설정에서 되돌릴 수 있습니다."
@@ -573,8 +573,8 @@ msgctxt "#31106"
 msgid ""
 "Configure menu items and widgets of the home window and hubs. Because of "
 "technical limitations, please note that custom items won't be applied to "
-"Emby nodes."
-msgstr "홈 창과 허브의 메뉴 항목과 위젯을 구성합니다. 기술적 한계로 인해 사용자 정의 항목이 Emby 노드에 적용되지 않습니다."
+"Jellyfin nodes."
+msgstr "홈 창과 허브의 메뉴 항목과 위젯을 구성합니다. 기술적 한계로 인해 사용자 정의 항목이 Jellyfin 노드에 적용되지 않습니다."
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31107"
@@ -608,8 +608,8 @@ msgstr "키오스크 모드"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31113"
-msgid "Show button to change the EmbyCon user"
-msgstr "EmbyCon 사용자를 변경하는 버튼 표시"
+msgid "Show button to change the JellyCon user"
+msgstr "JellyCon 사용자를 변경하는 버튼 표시"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31114"
@@ -633,8 +633,8 @@ msgstr "헤더 바에서 장치 이름 바꾸기"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
-msgstr "EmbyCon 소스"
+msgid "JellyCon sources"
+msgstr "JellyCon 소스"
 
 #: /xml/DialogPVRChannelsOSD.xml
 msgctxt "#31119"
@@ -849,8 +849,8 @@ msgstr "라벨 없음"
 
 #: /shortcuts/moviehub.DATA.xml
 msgctxt "#31160"
-msgid "Movies - EmbyCon"
-msgstr "영화 - EmbyCon"
+msgid "Movies - JellyCon"
+msgstr "영화 - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31161"
@@ -954,20 +954,20 @@ msgstr "모은 영화"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
-msgstr "Emby 노드"
+msgid "Jellyfin node"
+msgstr "Jellyfin 노드"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr "추천 TV 쇼"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr "추천 영화"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr "무작위 영화"
@@ -979,8 +979,8 @@ msgstr "무작위 TV 쇼"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
-msgstr "Emby 스트림"
+msgid "Jellyfin stream"
+msgstr "Jellyfin 스트림"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"
@@ -1089,40 +1089,40 @@ msgstr "복원 된 기본 메뉴 구성"
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
-msgid "EmbyCon node"
-msgstr "EmbyCon 노드"
+msgid "JellyCon node"
+msgstr "JellyCon 노드"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31209"
 msgid "Unwatched movies"
 msgstr "안 본 영화"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31210"
 msgid "Unwatched TV shows"
 msgstr "안 본 TV 쇼"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31211"
 msgid "Recently played songs"
 msgstr "최근에 재생 된 노래"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31212"
 msgid "Favourite artists"
 msgstr "좋아하는 아티스트"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31213"
 msgid "Favourite albums"
 msgstr "좋아하는 앨범"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31214"
 msgid "Favourite songs"
 msgstr "좋아하는 노래"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31215"
 msgid "Often played songs"
 msgstr "종종 연주되는 노래들"
@@ -1174,13 +1174,13 @@ msgstr "전원 메뉴"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
-msgid "EmbyCon login"
-msgstr "EmbyCon 로그인"
+msgid "JellyCon login"
+msgstr "JellyCon 로그인"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
-msgid "Change EmbyCon user"
-msgstr "EmbyCon 사용자 변경"
+msgid "Change JellyCon user"
+msgstr "JellyCon 사용자 변경"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31227"
@@ -1246,18 +1246,18 @@ msgstr "배역 정보"
 
 #: /shortcuts/tvshowhub.DATA.xml
 msgctxt "#31239"
-msgid "TV shows - EmbyCon"
-msgstr "TV 쇼 - EmbyCon"
+msgid "TV shows - JellyCon"
+msgstr "TV 쇼 - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31240"
-msgid "Artists - EmbyCon"
-msgstr "아티스트 - EmbyCon"
+msgid "Artists - JellyCon"
+msgstr "아티스트 - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31241"
-msgid "Albums - EmbyCon"
-msgstr "앨범 - EmbyCon"
+msgid "Albums - JellyCon"
+msgstr "앨범 - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31242"
@@ -1336,8 +1336,8 @@ msgstr "현재 방송"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
-msgid "Try to use an Emby styled artwork"
-msgstr "Emby 스타일의 아트워크를 사용"
+msgid "Try to use an Jellyfin styled artwork"
+msgstr "Jellyfin 스타일의 아트워크를 사용"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31258"
@@ -1448,8 +1448,8 @@ msgstr "장르별 제안"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31279"
-msgid "Emby nodes"
-msgstr "Emby 노드"
+msgid "Jellyfin nodes"
+msgstr "Jellyfin 노드"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31280"
@@ -1463,8 +1463,8 @@ msgstr "영화 위젯 구성 편집"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
-msgid "EmbyCon nodes"
-msgstr "EmbyCon 노드"
+msgid "JellyCon nodes"
+msgstr "JellyCon 노드"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31283"

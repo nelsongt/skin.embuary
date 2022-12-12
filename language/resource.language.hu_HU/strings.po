@@ -393,18 +393,18 @@ msgstr "Helyi keresés"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31073"
-msgid "EmbyCon: Search for movies"
-msgstr "EmbyCon: Filmek keresése"
+msgid "JellyCon: Search for movies"
+msgstr "JellyCon: Filmek keresése"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31074"
-msgid "EmbyCon: Search for TV shows"
-msgstr "EmbyCon: Sorozatok keresése"
+msgid "JellyCon: Search for TV shows"
+msgstr "JellyCon: Sorozatok keresése"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31075"
-msgid "EmbyCon: Search for episodes"
-msgstr "EmbyCon: Epizódok keresése"
+msgid "JellyCon: Search for episodes"
+msgstr "JellyCon: Epizódok keresése"
 
 #: /xml/Custom_1110_testwindow.xml
 msgctxt "#31076"
@@ -448,13 +448,13 @@ msgstr "Modulok"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
-msgid "Show custom shortcuts in Emby nodes"
-msgstr "Egyéni parancsikonok megjelenítése az Emby csomópontokban"
+msgid "Show custom shortcuts in Jellyfin nodes"
+msgstr "Egyéni parancsikonok megjelenítése az Jellyfin csomópontokban"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31085"
-msgid "Show EmbyCon source label"
-msgstr "Az EmbyCon forráscímke megjelenítése"
+msgid "Show JellyCon source label"
+msgstr "Az JellyCon forráscímke megjelenítése"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
@@ -489,14 +489,14 @@ msgstr "Üdvözöl az Embuary"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31092"
 msgid ""
-"This skin is designed to simulate the web gui experience of Emby.[CR]In "
+"This skin is designed to simulate the web gui experience of Jellyfin.[CR]In "
 "order to get everything running as it should, it's recommended to set the "
 "following Kodi options:[CR][CR][COLOR blue]- Disable mouse -[CR]- Hide "
 "parent folder items -[/COLOR][CR][CR]Please keep in mind that these settings "
 "are global and will be valid for all installed skins.[CR]But don't panic, "
 "all settings can be reverted in the Kodi settings."
 msgstr ""
-"Ezt a felszínt úgy tervezték, hogy szimulálja az Emby web gui tapasztalatát "
+"Ezt a felszínt úgy tervezték, hogy szimulálja az Jellyfin web gui tapasztalatát "
 "[CR] Ahhoz, hogy mindent el tudjon futtatni, a következő kódbeállításokat "
 "javasoljuk: [CR] [CR] [COLOR blue] - Egerek letiltása - [ CR] - Szülőmappa "
 "elemek elrejtése - [/ COLOR] [CR] [CR] Kérjük, ne feledje, hogy ezek a "
@@ -573,11 +573,11 @@ msgctxt "#31106"
 msgid ""
 "Configure menu items and widgets of the home window and hubs. Because of "
 "technical limitations, please note that custom items won't be applied to "
-"Emby nodes."
+"Jellyfin nodes."
 msgstr ""
 "Állítsa be az otthoni ablak és csomópontok menüelemeit és kütyüit. A "
 "technikai korlátozások miatt kérjük, vegye figyelembe, hogy az egyéni elemek"
-" nem kerülnek alkalmazásra az Emby csomópontokra."
+" nem kerülnek alkalmazásra az Jellyfin csomópontokra."
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31107"
@@ -636,8 +636,8 @@ msgstr "Cserélje az eszköz nevét a fejléc sávba"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
-msgid "EmbyCon sources"
-msgstr "EmbyCon források"
+msgid "JellyCon sources"
+msgstr "JellyCon források"
 
 #: /xml/DialogPVRChannelsOSD.xml
 msgctxt "#31119"
@@ -859,8 +859,8 @@ msgstr "Nincs címke"
 
 #: /shortcuts/moviehub.DATA.xml
 msgctxt "#31160"
-msgid "Movies - EmbyCon"
-msgstr "Filmek - EmbyCon"
+msgid "Movies - JellyCon"
+msgstr "Filmek - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31161"
@@ -964,20 +964,20 @@ msgstr "Összes film"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
-msgid "Emby node"
-msgstr "Emby node"
+msgid "Jellyfin node"
+msgstr "Jellyfin node"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
 msgid "Recommended TV shows"
 msgstr "Ajánlott sorozatok"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31183"
 msgid "Recommended movies"
 msgstr "Ajánlott filmek"
 
-#: /xml/Custom_1130_Emby0Hub.xml
+#: /xml/Custom_1130_Jellyfin0Hub.xml
 msgctxt "#31184"
 msgid "Random movies"
 msgstr "Véletlenszerű filmek"
@@ -989,8 +989,8 @@ msgstr "Véletlenszerű sorozatok"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
-msgid "Emby stream"
-msgstr "Emby stream"
+msgid "Jellyfin stream"
+msgstr "Jellyfin stream"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"
@@ -1089,8 +1089,8 @@ msgstr "Menübélyegek módosítása"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31206"
-msgid "Use Emby thumb"
-msgstr "Emby bélyegek használata"
+msgid "Use Jellyfin thumb"
+msgstr "Jellyfin bélyegek használata"
 
 #: /xml/Custom_1112_MainMenuReset.xml
 msgctxt "#31207"
@@ -1099,40 +1099,40 @@ msgstr "A főmenü alapértelmezett beállításainak visszaállítása"
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
-msgid "EmbyCon node"
-msgstr "EmbyCon node"
+msgid "JellyCon node"
+msgstr "JellyCon node"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31209"
 msgid "Unwatched movies"
 msgstr "Nemlátott filmek"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31210"
 msgid "Unwatched TV shows"
 msgstr "Nemlátott sorozatok"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31211"
 msgid "Recently played"
 msgstr "Lejátszás alatt"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31212"
 msgid "Favourite artists"
 msgstr "Kedvenc előadó"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31213"
 msgid "Favourite albums"
 msgstr "Kedvenc albumok"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31214"
 msgid "Favourite songs"
 msgstr "Kedvenc zeneszámok"
 
-#: /xml/Embuary_EmbyConHubIncludes.xml
+#: /xml/Embuary_JellyConHubIncludes.xml
 msgctxt "#31215"
 msgid "Often played"
 msgstr "Gyakran játszott"
@@ -1184,13 +1184,13 @@ msgstr "Power menü"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
-msgid "EmbyCon login"
-msgstr "EmbyCon bejelentkezés"
+msgid "JellyCon login"
+msgstr "JellyCon bejelentkezés"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
-msgid "Change EmbyCon user"
-msgstr "EmbyCon felhasználó váltás"
+msgid "Change JellyCon user"
+msgstr "JellyCon felhasználó váltás"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31227"
@@ -1260,18 +1260,18 @@ msgstr "Szereplők információi"
 
 #: /shortcuts/tvshowhub.DATA.xml
 msgctxt "#31239"
-msgid "TV shows - EmbyCon"
-msgstr "Sorozatok - EmbyCon"
+msgid "TV shows - JellyCon"
+msgstr "Sorozatok - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31240"
-msgid "Artists - EmbyCon"
-msgstr "Előadók - EmbyCon"
+msgid "Artists - JellyCon"
+msgstr "Előadók - JellyCon"
 
 #: /shortcuts/musichub.DATA.xml
 msgctxt "#31241"
-msgid "Albums - EmbyCon"
-msgstr "Albumok - EmbyCon"
+msgid "Albums - JellyCon"
+msgstr "Albumok - JellyCon"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31242"

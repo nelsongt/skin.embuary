@@ -236,7 +236,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_EmbyCon_InProgressMedia)" content="W_EmbyCon_InProgressMedia">
+		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_JellyCon_InProgressMedia)" content="W_JellyCon_InProgressMedia">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -256,7 +256,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_EmbyCon_NextUp)" content="W_EmbyCon_NextUp">
+		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_JellyCon_NextUp)" content="W_JellyCon_NextUp">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -266,7 +266,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_EmbyCon_NewMovies)" content="W_EmbyCon_NewMovies">
+		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_JellyCon_NewMovies)" content="W_JellyCon_NewMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -276,7 +276,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_EmbyCon_NewEpisodes)" content="W_EmbyCon_NewEpisodes">
+		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_JellyCon_NewEpisodes)" content="W_JellyCon_NewEpisodes">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -286,7 +286,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_EmbyCon_NewAlbums)" content="W_EmbyCon_NewAlbums">
+		<include condition="String.IsEqual(Skin.String(home_widget_pos_$PARAM[pos]),W_JellyCon_NewAlbums)" content="W_JellyCon_NewAlbums">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -342,7 +342,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_InProgressMovies)" content="W_EmbyCon_InProgressMovies">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_InProgressMovies)" content="W_JellyCon_InProgressMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -352,7 +352,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_NewMovies)" content="W_EmbyCon_NewMovies">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_NewMovies)" content="W_JellyCon_NewMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -362,7 +362,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_MovieGenres)" content="W_EmbyCon_MovieGenres">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_MovieGenres)" content="W_JellyCon_MovieGenres">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -372,7 +372,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_RecommendedMovies)" content="W_EmbyCon_RecommendedMovies">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_RecommendedMovies)" content="W_JellyCon_RecommendedMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -382,7 +382,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_SimilarMovies)" content="W_EmbyCon_SimilarMovies">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_SimilarMovies)" content="W_JellyCon_SimilarMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -392,7 +392,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_EmbyCon_FavMovies)" content="W_EmbyCon_FavMovies">
+		<include condition="String.IsEqual(Skin.String(moviehub_widget_pos_$PARAM[pos]),W_JellyCon_FavMovies)" content="W_JellyCon_FavMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -438,7 +438,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_InProgressShows)" content="W_EmbyCon_InProgressShows">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_InProgressShows)" content="W_JellyCon_InProgressShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -448,7 +448,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_NextUp)" content="W_EmbyCon_NextUp">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_NextUp)" content="W_JellyCon_NextUp">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -458,7 +458,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_NewEpisodes)" content="W_EmbyCon_NewEpisodes">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_NewEpisodes)" content="W_JellyCon_NewEpisodes">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -468,7 +468,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_TVShowGenres)" content="W_EmbyCon_TVShowGenres">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_TVShowGenres)" content="W_JellyCon_TVShowGenres">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -483,7 +483,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_RecommendedShows)" content="W_EmbyCon_RecommendedShows">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_RecommendedShows)" content="W_JellyCon_RecommendedShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -493,7 +493,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_EmbyCon_FavShows)" content="W_EmbyCon_FavShows">
+		<include condition="String.IsEqual(Skin.String(tvshowhub_widget_pos_$PARAM[pos]),W_JellyCon_FavShows)" content="W_JellyCon_FavShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -529,7 +529,7 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_EmbyCon_NewAlbums)" content="W_EmbyCon_NewAlbums">
+		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_JellyCon_NewAlbums)" content="W_JellyCon_NewAlbums">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -544,22 +544,22 @@
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_EmbyCon_FavArtists)" content="W_EmbyCon_FavArtists">
+		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_JellyCon_FavArtists)" content="W_JellyCon_FavArtists">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_EmbyCon_FavAlbums)" content="W_EmbyCon_FavAlbums">
+		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_JellyCon_FavAlbums)" content="W_JellyCon_FavAlbums">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_EmbyCon_FavSongs)" content="W_EmbyCon_FavSongs">
+		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_JellyCon_FavSongs)" content="W_JellyCon_FavSongs">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_EmbyCon_OftenPlayedSongs)" content="W_EmbyCon_OftenPlayedSongs">
+		<include condition="String.IsEqual(Skin.String(musichub_widget_pos_$PARAM[pos]),W_JellyCon_OftenPlayedSongs)" content="W_JellyCon_OftenPlayedSongs">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -960,39 +960,39 @@
 		</include>
 	</include>
 
-	<!-- EmbyCon movie hub widgets -->
-	<include name="WidgetCallEmbyConMovies">
+	<!-- JellyCon movie hub widgets -->
+	<include name="WidgetCallJellyConMovies">
 		<include condition="String.IsEmpty(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]))" content="WidgetDummy">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_EmbyConHub_InProgressMovies)" content="W_EmbyConHub_InProgressMovies">
+		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_JellyConHub_InProgressMovies)" content="W_JellyConHub_InProgressMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_EmbyConHub_NewMovies)" content="W_EmbyConHub_NewMovies">
+		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_JellyConHub_NewMovies)" content="W_JellyConHub_NewMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_EmbyConHub_RecommendedMovies)" content="W_EmbyConHub_RecommendedMovies">
+		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_JellyConHub_RecommendedMovies)" content="W_JellyConHub_RecommendedMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_EmbyConHub_MovieGenres)" content="W_EmbyConHub_MovieGenres">
+		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_JellyConHub_MovieGenres)" content="W_JellyConHub_MovieGenres">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_EmbyConHub_RandomMovies)" content="W_EmbyConHub_RandomMovies">
+		<include condition="String.IsEqual(Skin.String(jellyconmoviehub_widget_pos_$PARAM[pos]),W_JellyConHub_RandomMovies)" content="W_JellyConHub_RandomMovies">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -1000,45 +1000,45 @@
 		</include>
 	</include>
 
-	<!-- EmbyCon tvshow hub widgets -->
-	<include name="WidgetCallEmbyConTVShows">
+	<!-- JellyCon tvshow hub widgets -->
+	<include name="WidgetCallJellyConTVShows">
 		<include condition="String.IsEmpty(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]))" content="WidgetDummy">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_InProgressShows)" content="W_EmbyConHub_InProgressShows">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_InProgressShows)" content="W_JellyConHub_InProgressShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_NextUp)" content="W_EmbyConHub_NextUp">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_NextUp)" content="W_JellyConHub_NextUp">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_NewEpisodes)" content="W_EmbyConHub_NewEpisodes">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_NewEpisodes)" content="W_JellyConHub_NewEpisodes">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_RecommendedShows)" content="W_EmbyConHub_RecommendedShows">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_RecommendedShows)" content="W_JellyConHub_RecommendedShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_RandomShows)" content="W_EmbyConHub_RandomShows">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_RandomShows)" content="W_JellyConHub_RandomShows">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_EmbyConHub_TVShowGenres)" content="W_EmbyConHub_TVShowGenres">
+		<include condition="String.IsEqual(Skin.String(jellycontvshowhub_widget_pos_$PARAM[pos]),W_JellyConHub_TVShowGenres)" content="W_JellyConHub_TVShowGenres">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
@@ -1046,45 +1046,45 @@
 		</include>
 	</include>
 
-	<!-- EmbyCon music hub widgets -->
-	<include name="WidgetCallEmbyConMusic">
+	<!-- JellyCon music hub widgets -->
+	<include name="WidgetCallJellyConMusic">
 		<include condition="String.IsEmpty(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]))" content="WidgetDummy">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_NewAlbums)" content="W_EmbyConHub_NewAlbums">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_NewAlbums)" content="W_JellyConHub_NewAlbums">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_PlayedSongs)" content="W_EmbyConHub_PlayedSongs">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_PlayedSongs)" content="W_JellyConHub_PlayedSongs">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_OftenPlayed)" content="W_EmbyConHub_OftenPlayed">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_OftenPlayed)" content="W_JellyConHub_OftenPlayed">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_FavArtists)" content="W_EmbyConHub_FavArtists">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_FavArtists)" content="W_JellyConHub_FavArtists">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_FavAlbums)" content="W_EmbyConHub_FavAlbums">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_FavAlbums)" content="W_JellyConHub_FavAlbums">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>
 			<param name="nr" value="$PARAM[nr]"/>
 		</include>
-		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_EmbyConHub_FavSongs)" content="W_EmbyConHub_FavSongs">
+		<include condition="String.IsEqual(Skin.String(jellyconmusichub_widget_pos_$PARAM[pos]),W_JellyConHub_FavSongs)" content="W_JellyConHub_FavSongs">
 			<param name="id" value="$PARAM[id]"/>
 			<param name="onup" value="$PARAM[onup]"/>
 			<param name="ondown" value="$PARAM[ondown]"/>

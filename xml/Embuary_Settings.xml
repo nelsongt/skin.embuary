@@ -93,7 +93,7 @@
 				<label>Media importer settings</label>
 				<label2>&#xfcdd;</label2>
 				<onclick>ActivateWindow(MediaSourceBrowser)</onclick>
-				<visible>System.HasAddon(mediaimporter.emby) | System.HasAddon(mediaimporter.plex)</visible>
+				<visible>System.HasAddon(mediaimporter.jellyfin) | System.HasAddon(mediaimporter.plex)</visible>
 			</item>
 			<item>
 				<label>$LOCALIZE[14205]</label>
@@ -192,10 +192,10 @@
 	<include name="SettingAddons">
 		<content>
 			<item>
-				<label>$INFO[System.AddonTitle(plugin.video.emby)]</label>
+				<label>$INFO[System.AddonTitle(plugin.video.jellyfin)]</label>
 				<label2>&#xf6b3;</label2>
-				<onclick>Addon.OpenSettings(plugin.video.emby)</onclick>
-				<visible>System.HasAddon(plugin.video.emby)</visible>
+				<onclick>Addon.OpenSettings(plugin.video.jellyfin)</onclick>
+				<visible>System.HasAddon(plugin.video.jellyfin)</visible>
 			</item>
 			<item>
 				<label>$INFO[System.AddonTitle(plugin.video.jellycon)]</label>

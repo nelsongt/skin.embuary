@@ -1,5 +1,5 @@
 # skin.embuary
-Embuary is based on the web UI of Emby and has been developed for Emby-For-kodi users, but it doesn't require Emby at all and will also work with a regular Kodi setup.
+Embuary is based on the web UI of Jellyfin and has been developed for Jellyfin-For-kodi users, but it doesn't require Jellyfin at all and will also work with a regular Kodi setup.
 
 # Terms of use
 With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons.

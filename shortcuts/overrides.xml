@@ -35,7 +35,7 @@
 	<override action="start_search">
 		<action>SetProperty(CustomSearch,1,home)</action>
 		<action>Skin.Reset(CustomSearchTerm)</action>
-		<action>Skin.Reset(CustomSearchEmbyID)</action>
+		<action>Skin.Reset(CustomSearchJellyfinID)</action>
 		<action>Skin.SetString(CustomSearchTerm)</action>
 		<action>ActivateWindow(1115)</action>
 	</override>

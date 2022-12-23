@@ -288,7 +288,7 @@
 						<onclick condition="String.IsEqual(Container(211).ListItem.Property(hasVARLabel.type),allmovies)">Skin.SetString(MovieHubHeadline)</onclick>
 						<onclick condition="String.IsEqual(Container(211).ListItem.Property(hasVARLabel.type),allshows)">Skin.SetString(TVShowHubHeadline)</onclick>
 						<onclick condition="String.IsEqual(Container(211).ListItem.Property(hasVARLabel.type),customhub)">Skin.SetString(CustomHubHeadline)</onclick>
-						<visible>!String.StartsWith(Container(211).ListItem.Property(defaultID),embuary_emby)</visible>
+						<visible>!String.StartsWith(Container(211).ListItem.Property(defaultID),embuary_jellyfin)</visible>
 						<visible>!String.StartsWith(Container(211).ListItem.Property(defaultID),embuary_musichub_partymode)</visible>
 						<visible>!String.IsEqual(Container(211).ListItem.Property(path),noop)</visible>
 					</control>

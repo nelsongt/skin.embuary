@@ -15,11 +15,11 @@
 	<!-- action overrides -->
 	<override action="jellycon_movies">
 		<condition>String.IsEqual(Window(home).property(plugin.video.jellycon-group_movies),true)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fIsVirtualUnaired%3dfalse%26IncludeItemTypes%3dMovie%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fIsVirtualUnaired%3dfalse%26IncludeItemTypes%3dMovie%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon_movies">
 		<condition>!String.IsEqual(Window(home).property(plugin.video.jellycon-group_movies),true)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMovie%26IsVirtualUnaired%3dfalse%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=movies&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMovie%26IsVirtualUnaired%3dfalse%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26format%3djson,return)</action>
 	</override>
 
 	<override action="library_update">
@@ -209,7 +209,7 @@
 	</override>
 	<override action="jellycon0">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.0.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon1">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),boxsets)</condition>
@@ -218,7 +218,7 @@
 	</override>
 	<override action="jellycon1">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.1.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon2">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),boxsets)</condition>
@@ -227,7 +227,7 @@
 	</override>
 	<override action="jellycon2">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.2.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon3">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),boxsets)</condition>
@@ -236,7 +236,7 @@
 	</override>
 	<override action="jellycon3">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.3.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon4">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),boxsets)</condition>
@@ -245,7 +245,7 @@
 	</override>
 	<override action="jellycon4">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.4.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon5">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),boxsets)</condition>
@@ -254,7 +254,7 @@
 	</override>
 	<override action="jellycon5">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.5.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon6">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),boxsets)</condition>
@@ -263,7 +263,7 @@
 	</override>
 	<override action="jellycon6">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.6.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon7">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),boxsets)</condition>
@@ -272,7 +272,7 @@
 	</override>
 	<override action="jellycon7">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.7.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon8">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),boxsets)</condition>
@@ -281,7 +281,7 @@
 	</override>
 	<override action="jellycon8">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.8.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon9">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),boxsets)</condition>
@@ -290,7 +290,7 @@
 	</override>
 	<override action="jellycon9">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.9.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon10">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),boxsets)</condition>
@@ -299,7 +299,7 @@
 	</override>
 	<override action="jellycon10">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.10.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon11">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),boxsets)</condition>
@@ -308,7 +308,7 @@
 	</override>
 	<override action="jellycon11">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.11.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon12">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),boxsets)</condition>
@@ -317,7 +317,7 @@
 	</override>
 	<override action="jellycon12">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.12.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon13">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),boxsets)</condition>
@@ -326,7 +326,7 @@
 	</override>
 	<override action="jellycon13">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.13.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon14">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),boxsets)</condition>
@@ -335,7 +335,7 @@
 	</override>
 	<override action="jellycon14">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.14.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon15">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),boxsets)</condition>
@@ -344,7 +344,7 @@
 	</override>
 	<override action="jellycon15">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.15.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon16">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),boxsets)</condition>
@@ -353,7 +353,7 @@
 	</override>
 	<override action="jellycon16">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.16.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon17">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),boxsets)</condition>
@@ -362,7 +362,7 @@
 	</override>
 	<override action="jellycon17">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.17.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon18">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),boxsets)</condition>
@@ -371,7 +371,7 @@
 	</override>
 	<override action="jellycon18">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.18.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon19">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),boxsets)</condition>
@@ -380,7 +380,7 @@
 	</override>
 	<override action="jellycon19">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.19.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon20">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),boxsets)</condition>
@@ -389,7 +389,7 @@
 	</override>
 	<override action="jellycon20">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.20.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon21">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),boxsets)</condition>
@@ -398,7 +398,7 @@
 	</override>
 	<override action="jellycon21">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.21.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon22">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),boxsets)</condition>
@@ -407,7 +407,7 @@
 	</override>
 	<override action="jellycon22">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.22.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon23">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),boxsets)</condition>
@@ -416,7 +416,7 @@
 	</override>
 	<override action="jellycon23">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.23.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon24">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),boxsets)</condition>
@@ -425,7 +425,7 @@
 	</override>
 	<override action="jellycon24">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.24.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon25">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),boxsets)</condition>
@@ -434,7 +434,7 @@
 	</override>
 	<override action="jellycon25">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.25.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon26">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),boxsets)</condition>
@@ -443,7 +443,7 @@
 	</override>
 	<override action="jellycon26">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.26.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon27">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),boxsets)</condition>
@@ -452,7 +452,7 @@
 	</override>
 	<override action="jellycon27">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.27.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon28">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),boxsets)</condition>
@@ -461,7 +461,7 @@
 	</override>
 	<override action="jellycon28">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.28.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 	<override action="jellycon29">
 		<condition>!String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),boxsets)</condition>
@@ -470,7 +470,7 @@
 	</override>
 	<override action="jellycon29">
 		<condition>String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),boxsets)</condition>
-		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
+		<action>ActivateWindow(videos,plugin://plugin.video.jellycon/?media_type=boxsets&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fParentId%3d$INFO[Window(home).Property(plugin.video.jellycon-view_item.29.id)]&amp;%26IsVirtualUnaired%3dfalse%26IncludeItemTypes%3dBoxset%26CollapseBoxSetItems%3dTrue%26GroupItemsIntoCollections%3dTrue%26Recursive%3dtrue%26IsMissing%3dFalse%26Fields%3d%7bfield_filters%7d%26ImageTypeLimit%3d1%26SortBy%3dName%26SortOrder%3dAscending%26format%3djson,return)</action>
 	</override>
 
 	<!-- sidepanel -->

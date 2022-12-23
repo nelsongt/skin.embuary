@@ -75,7 +75,7 @@
 		]
 	</expression>
 
-	<expression name="HasJellyContext">[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) | !String.IsEmpty(ListItem.Property(jellyfinid))] + !String.IsEmpty(Window(10000).Property(emby_context)) + !Skin.HasSetting(KioskMode) + !String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
+	<expression name="HasJellyfinContext">[[!String.IsEmpty(ListItem.DBID) + !String.IsEqual(ListItem.DBID,-1) | !String.IsEmpty(ListItem.Property(jellyfinid))] + !String.IsEmpty(Window(10000).Property(jellyfin_context)) + !Skin.HasSetting(KioskMode) + !String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
 
 	<expression name="HasJellyConContext">[!String.IsEmpty(ListItem.Property(id)) + String.StartsWith(ListItem.FolderPath,plugin://plugin.video.jellycon)]</expression>
 
@@ -184,7 +184,7 @@
 
 	<expression name="SeasonViewVisible">[
 		Container.Content(seasons)
-		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin)]
+		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jelly)]
 		]
 	</expression>
 
@@ -196,8 +196,8 @@
 			+ ![String.Contains(Container.FolderPath,BoxSet) + !String.Contains(Container.FolderPath,CollapseBoxSet) + Container.Content(movies)]
 			+ !Window.IsVisible(MyPVRguide.xml)
 		]
-		| [Container.Content(episodes) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) + !String.StartsWith(Container.FolderPath,plugin://script.embuary) + !String.StartsWith(plugin.video.plexkodiconnect)]
-		| [Container.Content(seasons) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin)]
+		| [Container.Content(episodes) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jelly) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) + !String.StartsWith(Container.FolderPath,plugin://script.embuary) + !String.StartsWith(plugin.video.plexkodiconnect)]
+		| [Container.Content(seasons) + String.StartsWith(Container.FolderPath,plugin://) + !String.StartsWith(Container.FolderPath,plugin://plugin.video.jelly)]
 		| Window.IsVisible(MyPics.xml)
 		]
 	</expression>
@@ -205,7 +205,7 @@
 	<expression name="EpisodeViewVisible">[
 		Container.Content(episodes)
 		+ !Window.IsVisible(pictures)
-		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jellyfin) | String.StartsWith(Container.FolderPath,plugin://script.embuary) | String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) | String.StartsWith(plugin.video.plexkodiconnect)]
+		+ [!String.StartsWith(Container.FolderPath,plugin://) | String.StartsWith(Container.FolderPath,plugin://plugin.video.jelly) | String.StartsWith(Container.FolderPath,plugin://script.embuary) | String.StartsWith(Container.FolderPath,plugin://plugin.video.plexbmc) | String.StartsWith(plugin.video.plexkodiconnect)]
 		]
 	</expression>
 

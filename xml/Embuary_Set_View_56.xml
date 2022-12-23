@@ -148,10 +148,10 @@
 									<visible>$EXP[IsWatched]</visible>
 								</item>
 								<item>
-									<visible>$EXP[HasJellyContext] | $EXP[HasJellyConContext]</visible>
+									<visible>$EXP[HasJellyfinContext] | $EXP[HasJellyConContext]</visible>
 									<label>$LOCALIZE[31366]</label>
 									<property name="icon">&#xf1d8;</property>
-									<onclick condition="$EXP[HasJellyContext]">RunScript(special://home/addons/plugin.video.jellyfin/context.py)</onclick>
+									<onclick condition="$EXP[HasJellyfinContext]">RunScript(special://home/addons/plugin.video.jellyfin/context.py)</onclick>
 									<onclick condition="$EXP[HasJellyConContext]">RunPlugin(plugin://plugin.video.jellycon?mode=SHOW_MENU&amp;item_id=$INFO[ListItem.Property(id)])</onclick>
 								</item>
 							</content>

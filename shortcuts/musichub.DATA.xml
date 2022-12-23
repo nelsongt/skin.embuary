@@ -68,7 +68,7 @@
 		<label2/>
 		<icon/>
 		<thumb/>
-		<action>ActivateWindow(music,plugin://plugin.video.jellycon/?media_type=MusicArtists&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fArtists%2fAlbumArtists%3fRecursive%3dtrue%26ImageTypeLimit%3d1%26EnableImageTypes%3dPrimary%2cBackdrop%2cBanner%2cThumb%26format%3djson,return)</action>
+		<action>ActivateWindow(music,plugin://plugin.video.jellycon/?media_type=MusicArtists&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fArtists%2fAlbumArtists%3fRecursive%3dtrue%26ImageTypeLimit%3d1%26EnableImageTypes%3dPrimary%2cBackdrop%2cBanner%2cThumb%26format%3djson,return)</action>
 		<visible>System.HasAddon(plugin.video.jellycon)</visible>
 	</shortcut>
 	<shortcut>
@@ -77,7 +77,7 @@
 		<label2/>
 		<icon/>
 		<thumb/>
-		<action>ActivateWindow(music,plugin://plugin.video.jellycon/?media_type=MusicAlbums&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2femby%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMusicAlbum%26ImageTypeLimit%3d1%26EnableImageTypes%3dPrimary%2cBackdrop%2cBanner%2cThumb%26format%3djson,return)</action>
+		<action>ActivateWindow(music,plugin://plugin.video.jellycon/?media_type=MusicAlbums&amp;mode=GET_CONTENT&amp;url=%7bserver%7d%2fUsers%2f%7buserid%7d%2fItems%3fRecursive%3dtrue%26IncludeItemTypes%3dMusicAlbum%26ImageTypeLimit%3d1%26EnableImageTypes%3dPrimary%2cBackdrop%2cBanner%2cThumb%26format%3djson,return)</action>
 		<visible>System.HasAddon(plugin.video.jellycon)</visible>
 	</shortcut>
 </shortcuts>

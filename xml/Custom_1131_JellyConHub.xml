@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="1131">
+	<defaultcontrol always="true">10</defaultcontrol>
+	<menucontrol>6666</menucontrol>
+	<backgroundcolor>background</backgroundcolor>
+	<include content="PropertyIncludes">
+		<param name="ShowHeader" value="true"/>
+	</include>
+	<controls>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),0)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="0"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),1)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="1"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),2)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="2"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),3)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="3"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),4)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="4"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),5)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="5"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),6)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="6"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),7)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="7"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),8)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="8"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),9)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="9"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),10)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="10"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),11)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="11"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),12)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="12"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),13)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="13"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),14)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="14"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),15)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="15"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),16)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="16"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),17)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="17"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),18)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="18"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),19)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="19"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),20)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="20"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),21)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="21"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),22)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="22"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),23)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="23"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),24)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="24"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),25)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="25"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),26)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="26"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),27)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="27"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),28)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="28"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),movies) + String.IsEqual(Window(home).Property(TagHubNr),29)" content="JellyConHubMovieTemplate">
+			<param name="nr" value="29"/>
+		</include>
+
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),0)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="0"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),1)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="1"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),2)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="2"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),3)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="3"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),4)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="4"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),5)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="5"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),6)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="6"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),7)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="7"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),8)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="8"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),9)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="9"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),10)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="10"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),11)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="11"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),12)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="12"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),13)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="13"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),14)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="14"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),15)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="15"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),16)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="16"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),17)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="17"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),18)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="18"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),19)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="19"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),20)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="20"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),21)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="21"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),22)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="22"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),23)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="23"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),24)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="24"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),25)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="25"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),26)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="26"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),27)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="27"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),28)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="28"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),tvshows) + String.IsEqual(Window(home).Property(TagHubNr),29)" content="JellyConHubTVShowTemplate">
+			<param name="nr" value="29"/>
+		</include>
+
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.0.type),music) + String.IsEqual(Window(home).Property(TagHubNr),0)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="0"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.1.type),music) + String.IsEqual(Window(home).Property(TagHubNr),1)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="1"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.2.type),music) + String.IsEqual(Window(home).Property(TagHubNr),2)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="2"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.3.type),music) + String.IsEqual(Window(home).Property(TagHubNr),3)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="3"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.4.type),music) + String.IsEqual(Window(home).Property(TagHubNr),4)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="4"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.5.type),music) + String.IsEqual(Window(home).Property(TagHubNr),5)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="5"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.6.type),music) + String.IsEqual(Window(home).Property(TagHubNr),6)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="6"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.7.type),music) + String.IsEqual(Window(home).Property(TagHubNr),7)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="7"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.8.type),music) + String.IsEqual(Window(home).Property(TagHubNr),8)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="8"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.9.type),music) + String.IsEqual(Window(home).Property(TagHubNr),9)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="9"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.10.type),music) + String.IsEqual(Window(home).Property(TagHubNr),10)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="10"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.11.type),music) + String.IsEqual(Window(home).Property(TagHubNr),11)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="11"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.12.type),music) + String.IsEqual(Window(home).Property(TagHubNr),12)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="12"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.13.type),music) + String.IsEqual(Window(home).Property(TagHubNr),13)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="13"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.14.type),music) + String.IsEqual(Window(home).Property(TagHubNr),14)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="14"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.15.type),music) + String.IsEqual(Window(home).Property(TagHubNr),15)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="15"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.16.type),music) + String.IsEqual(Window(home).Property(TagHubNr),16)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="16"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.17.type),music) + String.IsEqual(Window(home).Property(TagHubNr),17)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="17"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.18.type),music) + String.IsEqual(Window(home).Property(TagHubNr),18)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="18"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.19.type),music) + String.IsEqual(Window(home).Property(TagHubNr),19)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="19"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.20.type),music) + String.IsEqual(Window(home).Property(TagHubNr),20)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="20"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.21.type),music) + String.IsEqual(Window(home).Property(TagHubNr),21)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="21"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.22.type),music) + String.IsEqual(Window(home).Property(TagHubNr),22)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="22"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.23.type),music) + String.IsEqual(Window(home).Property(TagHubNr),23)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="23"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.24.type),music) + String.IsEqual(Window(home).Property(TagHubNr),24)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="24"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.25.type),music) + String.IsEqual(Window(home).Property(TagHubNr),25)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="25"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.26.type),music) + String.IsEqual(Window(home).Property(TagHubNr),26)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="26"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.27.type),music) + String.IsEqual(Window(home).Property(TagHubNr),27)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="27"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.28.type),music) + String.IsEqual(Window(home).Property(TagHubNr),28)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="28"/>
+		</include>
+		<include condition="String.IsEqual(Window(home).Property(plugin.video.jellycon-view_item.29.type),music) + String.IsEqual(Window(home).Property(TagHubNr),29)" content="JellyConHubMusicTemplate">
+			<param name="nr" value="29"/>
+		</include>
+
+	</controls>
+</window>
